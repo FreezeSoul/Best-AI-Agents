@@ -299,7 +299,6 @@ Contributions welcome! Please submit a PR to add resources.
 ## Follow for Updates
 
 - [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11)
-- [Ankur Singh](https://twitter.com/ankur_maker)
 
 ---
 

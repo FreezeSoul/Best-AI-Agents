@@ -6,6 +6,8 @@ OpenClaw (formerly Moltbot, originally Clawdbot) is a free and open-source auton
 
 [![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw)
 
+<img width="1536" height="1024" alt="oc" src="https://github.com/user-attachments/assets/dc60b4c4-18f4-4ebd-a5b9-8294d2e924ab" />
+
 ---
 
 ## Contents

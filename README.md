@@ -1,137 +1,314 @@
-# Best AI Agents
+# Awesome OpenClaw [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![GitHub stars](https://img.shields.io/github/stars/SamurAIGPT/Best-AI-Agents?style=social)](https://github.com/SamurAIGPT/Best-AI-Agents/stargazers)
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+> A curated collection of resources, tools, skills, tutorials, and articles for **OpenClaw** — the open-source AI agent that's taking the world by storm.
 
-A comprehensive, curated list of the top AI agents and autonomous AI frameworks. Updated regularly.
+OpenClaw (formerly Moltbot, originally Clawdbot) is a free and open-source autonomous AI agent created by Peter Steinberger. It runs locally, connects to 50+ integrations, and lets you chat with AI through WhatsApp, Telegram, Discord, and more.
 
-> **Video Tutorial**: [Watch on YouTube](https://www.youtube.com/watch?v=6dDrlrmPXoE)
-
-![AI Agents Banner](https://github.com/SamurAIGPT/Top-AI-Agents/assets/4326215/04319803-e236-45ed-be55-98aab73b6453)
-
-## Table of Contents
-
-- [Autonomous Agents](#autonomous-agents)
-- [Multi-Agent Frameworks](#multi-agent-frameworks)
-- [Agent Platforms](#agent-platforms)
-- [Coding Agents](#coding-agents)
-- [Research Agents](#research-agents)
-- [Specialized Agents](#specialized-agents)
-- [Agent Libraries](#agent-libraries)
+[![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw)
 
 ---
 
-## Autonomous Agents
+## Contents
 
-General-purpose AI agents that can complete tasks autonomously.
+- [Official Resources](#official-resources)
+- [Getting Started](#getting-started)
+- [Installation Guides](#installation-guides)
+- [Skills & Plugins](#skills--plugins)
+- [Integrations](#integrations)
+- [MCP Support](#mcp-support)
+- [Tutorials & Guides](#tutorials--guides)
+- [Articles & News](#articles--news)
+- [Community](#community)
+- [Alternatives & Comparisons](#alternatives--comparisons)
+- [Security](#security)
 
-| Agent | Description | Links |
-|-------|-------------|-------|
-| ![Logo](https://framerusercontent.com/images/0XbmS4NY5rDAuBOlpg5Q30xidY.png) **AutoGPT** | Experimental attempt to make GPT-4 fully autonomous | [Website](https://gptagent.thesamur.ai) • [GitHub](https://github.com/Significant-Gravitas/Auto-GPT/) |
-| ![Logo](https://framerusercontent.com/images/VZtVSlsVS8Qz8pJ2DTbJJUfD8bA.png) **AgentGPT** | Browser-based no-code version of AutoGPT | [Website](https://agentgpt.reworkd.ai/) • [GitHub](https://agentgpt.reworkd.ai/) |
-| ![Logo](https://framerusercontent.com/images/DF6dRLhS6QdzQX5v1Ty39GnDA.png) **Cognosys** | Web-based version of AutoGPT/BabyAGI | [Website](https://www.cognosys.ai/) |
-| ![Logo](https://framerusercontent.com/images/VkrzvNwaWh4DbDwyBQ0GN3KuGTw.png) **Godmode** | Inspired by AutoGPT and BabyAGI, with nice UI | [Website](https://godmode.space) |
-| ![Logo](https://framerusercontent.com/images/anCwdMbghpiibMWZS2oEKelBlE.png) **evo.ninja** | AI agent that adapts its persona to achieve tasks | [Website](https://evo.ninja/) • [GitHub](https://github.com/polywrap/evo.ninja/) |
+---
 
-## Multi-Agent Frameworks
+## Official Resources
 
-Frameworks for building systems with multiple collaborating agents.
+- [OpenClaw Website](https://openclaw.ai/) - Official homepage
+- [OpenClaw GitHub](https://github.com/openclaw/openclaw) - Main repository (150k+ stars)
+- [OpenClaw Documentation](https://docs.openclaw.ai/) - Official docs
+- [ClawHub](https://clawhub.ai/) - Official skill registry with 700+ community skills
+- [OpenClaw Showcase](https://openclaw.ai/showcase) - What people are building
+- [OpenClaw Releases](https://github.com/openclaw/openclaw/releases) - Latest releases
+- [AGENTS.md](https://github.com/openclaw/openclaw/blob/main/AGENTS.md) - Agent configuration guide
+- [CHANGELOG.md](https://github.com/openclaw/openclaw/blob/main/CHANGELOG.md) - Release notes
 
-| Framework | Description | Links |
-|-----------|-------------|-------|
-| ![Logo](https://framerusercontent.com/images/kilmEDcUu7r5IyD1qOJyPYoTJI.png) **AutoGen** | Multi-agent framework with diverse agent types | [Docs](https://microsoft.github.io/autogen/) • [GitHub](https://github.com/microsoft/autogen) |
-| ![Logo](https://framerusercontent.com/images/w3J6lNoFGyQQ6enRkQRYhI9drs.png) **CrewAI** | Framework for orchestrating role-playing agents | [Website](https://www.crewai.io/) • [GitHub](https://github.com/joaomdmoura/crewai) |
-| ![Logo](https://framerusercontent.com/images/qFpSLDvLEfObFYwXvmaNBxoL5Y.png) **AgentVerse** | Platform for task-solving and simulation agents | [Twitter](https://twitter.com/Agentverse71134) |
-| ![Logo](https://framerusercontent.com/images/aAW9to9J7h3oVJvrjxwDb1R95GY.png) **SuperAGI** | Framework to develop and deploy AI agents | [Twitter](https://twitter.com/_superAGI) |
-| ![Logo](https://framerusercontent.com/images/zEAdEzwf6l0Y0kY2iQtb2IvjDU.png) **Superagent** | Tool for creating agents without coding | [Website](https://www.superagent.sh/) • [GitHub](https://github.com/homanp/superagent) |
+---
 
-## Agent Platforms
+## Getting Started
 
-No-code and low-code platforms for building AI agents.
+### Quick Install
 
-| Platform | Description | Links |
-|----------|-------------|-------|
-| ![Logo](https://framerusercontent.com/images/ugwFLqSgh73GQ66ImApHAp1pRQU.png) **Lindy** | AI assistant for daily tasks | [Website](https://www.lindy.ai/) |
-| ![Logo](https://framerusercontent.com/images/CgQosvVibgulvP0QC17ZiE4OY8.png) **MultiOn** | Book flights, order food, and more | [Website](https://www.multion.ai/) • [Twitter](https://twitter.com/MultiON_AI) |
-| ![Logo](https://framerusercontent.com/images/967E5f7EmVTEODJ2VG3cvsMY9xQ.png) **LLM Stack** | No-code platform to build LLM apps | [Website](https://llmstack.ai/) • [GitHub](https://github.com/trypromptly/LLMStack) |
-| ![Logo](https://framerusercontent.com/images/vZGffuQ3Vl1PNc8OZf9SJdNyoc.png) **AilaFlow** | No-code platform for building AI agents | [Website](https://ailaflow.com/) |
-| ![Logo](https://framerusercontent.com/images/X2RJ3kYXql06hL0mfHqLm8q6X9U.png) **Kompas AI** | Pick your LLM and build custom agents | [Website](https://kompas.ai/) • [GitHub](https://github.com/KompasAI) • [Twitter](https://twitter.com/Kompas_AI) |
+```bash
+# Install via npm
+npm install -g openclaw@latest
 
-## Coding Agents
+# Or via pnpm
+pnpm add -g openclaw@latest
 
-AI agents specialized in software development tasks.
+# Run onboarding wizard
+openclaw onboard --install-daemon
+```
 
-| Agent | Description | Links |
-|-------|-------------|-------|
-| ![Logo](https://framerusercontent.com/images/ao3DkC79XSpcW0pBupiDMVZfzyk.png) **Self-Operating Computer** | Let multimodal models operate a computer | [Website](https://www.hyperwriteai.com/self-operating-computer) • [GitHub](https://github.com/OthersideAI/self-operating-computer) |
-| ![Logo](https://framerusercontent.com/images/341n8A3OspytxlCsY0czUiRpus.png) **Aide by Codestory** | AI-powered mod of VSCode | [Website](https://codestory.ai/) • [Twitter](https://twitter.com/codestoryai) |
-| ![Logo](https://framerusercontent.com/images/HmFjellURCTTEvAnIuvxkpVTbI.png) **Aider** | Command line tool to edit code in your repo | [Website](https://aider.chat/) |
-| ![Logo](https://framerusercontent.com/images/pqADbAtJ7Ct5BL9yrC7P7qLAY.png) **Code Autopilot** | AI assistant for your project | [Website](https://www.codeautopilot.com/) • [Twitter](https://twitter.com/code_autopilot) |
-| **Pythagora** | Generate automated tests with LLM | [Website](https://www.pythagora.ai/) • [GitHub](https://github.com/Pythagora-io/pythagora) |
+### First Steps
 
-## Research Agents
+1. Run `openclaw onboard` to start the setup wizard
+2. Choose your AI provider (Anthropic Claude, OpenAI, or local via Ollama)
+3. Connect a messaging platform (Telegram, WhatsApp, Discord, etc.)
+4. Start chatting with your personal AI assistant!
 
-Agents specialized in research and information gathering.
+### Dashboard
 
-| Agent | Description | Links |
-|-------|-------------|-------|
-| ![Logo](https://framerusercontent.com/images/7ZwSPFHkSLSVJAhG0uDaFk9wk.png) **Aomni** | AI agent for business intelligence | [Website](https://www.aomni.com/) |
-| **GPT Researcher** | Researches entire internet on any topic | [Website](https://tavily.com/) • [GitHub](https://github.com/assafelovic/gpt-researcher) |
-| ![Logo](https://framerusercontent.com/images/difYUZDNiqfyvzUFASywBMvb2E.png) **Phind** | Personal programming and research assistant | [Website](https://www.phind.com/) • [Twitter](https://twitter.com/phindsearch) |
+Access the web dashboard at `http://localhost:18789/` to chat and manage your agent.
 
-## Specialized Agents
+---
 
-Domain-specific AI agents.
+## Installation Guides
 
-| Agent | Description | Links |
-|-------|-------------|-------|
-| ![Logo](https://framerusercontent.com/images/WQEsBclZe3uwujBApl1m7J6jdHo.png) **Agent4Rec** | Recommender system simulator with 1,000 agents | [GitHub](https://github.com/LehengTHU/Agent4Rec) |
-| ![Logo](https://framerusercontent.com/images/pxt8jnJcQb52psIaxML2O0LwHPE.png) **CodeWP** | AI agent for WordPress websites | [Website](https://codewp.ai/) • [GitHub](https://github.com/wpai-inc/) • [Twitter](https://twitter.com/codewp_ai) |
-| ![Logo](https://framerusercontent.com/images/mqm7OT8HY8EY04MujMaxvT8E.png) **Juno** | AI-led user interviews for research | [Website](https://heyjuno.co/) • [Twitter](https://twitter.com/heyjunoco) |
-| ![Logo](https://framerusercontent.com/images/uwsM53ausHpHhl781ocNJlfZYDQ.jpg) **Kusho** | AI agent for API testing | [Website](https://kusho.ai/) • [Twitter](https://twitter.com/kushoai) |
-| **GPT Discord** | AI agent integration for Discord | [GitHub](https://github.com/Kav-K/GPTDiscord) |
+| Guide | Platform | Description |
+|-------|----------|-------------|
+| [Official Getting Started](https://docs.openclaw.ai/start/getting-started) | All | Official setup guide |
+| [Codecademy Tutorial](https://www.codecademy.com/article/open-claw-tutorial-installation-to-first-chat-setup) | All | Installation to first chat |
+| [Hostinger Guide](https://www.hostinger.com/tutorials/how-to-set-up-openclaw) | VPS | Private server setup |
+| [DigitalOcean One-Click](https://www.digitalocean.com/community/tutorials/how-to-run-openclaw) | Cloud | One-click deployment |
+| [LMStudio Setup](https://nwosunneoma.medium.com/how-to-setup-openclaw-with-lmstudio-1960a8046f6b) | Local | Run with local models |
+| [Docker Setup](https://habr.com/en/articles/992720/) | Docker | Container deployment |
+| [Afternoon Setup Guide](https://amankhan1.substack.com/p/how-to-get-clawdbotmoltbotopenclaw) | All | Quick setup walkthrough |
 
-## Agent Libraries & Tools
+---
 
-Libraries and tools for building custom agents.
+## Skills & Plugins
 
-| Tool | Description | Links |
-|------|-------------|-------|
-| ![Logo](https://framerusercontent.com/images/krhdiYQG404nXM1IG2MYTngcBc.png) **AgentForge** | LLM-agnostic platform for building agents | [Website](https://www.agentforge.net/) • [GitHub](https://github.com/DataBassGit/AgentForge) • [Twitter](https://twitter.com/AgentForge) |
-| ![Logo](https://framerusercontent.com/images/kZXEc2aVlPhnBwZRcjA5sdo8KF0.png) **AgentPilot** | Desktop app for building and chatting with agents | [GitHub](https://github.com/jbexta/AgentPilot) • [Twitter](https://twitter.com/AgentPilotAI) |
-| ![Logo](https://framerusercontent.com/images/CJxV9UDiLfvG6WM2rITsJhE5uk4.png) **Agents** | Library/framework for building language agents | [GitHub](https://github.com/aiwaves-cn/agents) |
-| ![Logo](https://framerusercontent.com/images/rFjUSkY7nx1NM4lptJxNOF10.jpeg) **AI Legion** | Multi-agent TypeScript platform | [Website](https://gpt3demo.com/apps/ai-legion) • [GitHub](https://github.com/eumemic/ai-legion) • [Twitter](https://twitter.com/dysmemic) |
-| **AIlice** | Create agent-calling trees to execute tasks | [GitHub](https://github.com/myshell-ai/AIlice) |
-| ![Logo](https://framerusercontent.com/images/81tc5HOisywoqiuZyA7sp0cYg.png) **Adala** | Autonomous Data Labeling Agent framework | [Docs](https://humansignal.github.io/Adala/) • [GitHub](https://github.com/HumanSignal/Adala) |
-| ![Logo](https://framerusercontent.com/images/ljDtKijYSaVaCY6Rux7bak28E0.png) **ChatArena** | Chat tool for multi-agent interaction | [GitHub](https://github.com/Farama-Foundation/chatarena) • [Twitter](https://twitter.com/_chatarena) |
+### Skill Registries
 
-## Enterprise Agents
+- [ClawHub](https://clawhub.ai/) - Official skill store (700+ skills)
+- [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Community curated collection
+- [openclaw/skills](https://github.com/openclaw/skills) - Official skills repository
+- [openclaw/clawhub](https://github.com/openclaw/clawhub) - Skill directory source
+- [Skills.sh](https://skills.sh/openclaw/openclaw) - Skill discovery platform
 
-| Agent | Description | Links |
-|-------|-------------|-------|
-| ![Logo](https://framerusercontent.com/images/LQfq3Gh2N1lOt8X5GZTS1eZl3g.png) **Adept AI** | ML research lab building general intelligence | [Website](https://www.adept.ai/) |
-| ![Logo](https://framerusercontent.com/images/j1DxPYyzveLc1fNPe7IRhklro.png) **Ability AI** | Secure, people-centric autonomous AI agents | [Website](https://ability.ai/) |
-| **AgentScale** | Assistant, email writer, calendar scheduler | [Website](https://agentscale.ai/) • [Twitter](https://twitter.com/agentscale) |
-| ![Logo](https://framerusercontent.com/images/Kcpv6gB8LL2hgboQfpJbWJ67jik.png) **Promptly** | Generative AI for enterprise | [Website](https://www.trypromptly.com/) • [GitHub](https://github.com/trypromptly) • [Twitter](https://twitter.com/trypromptly) |
-| ![Logo](https://framerusercontent.com/images/0kim0fDKK857PN2pUteOERm15c.jpg) **Wordware** | Build better language model apps, fast | [Website](https://www.wordware.ai/) • [Twitter](https://twitter.com/wordware_ai) |
+### Popular Skill Categories
+
+| Category | Description |
+|----------|-------------|
+| Productivity | Calendar, email, task management |
+| Development | GitHub, code review, deployments |
+| Smart Home | Hue, HomeKit, IoT control |
+| Communication | Email drafting, message scheduling |
+| Research | Web browsing, PDF summarization |
+| Entertainment | Spotify, media control |
+
+### Installing Skills
+
+```bash
+# Install from ClawHub
+openclaw skills install <skill-name>
+
+# Install from npm
+openclaw plugins install <npm-package>
+```
+
+### Plugin Development
+
+- [Plugin Documentation](https://docs.openclaw.ai/plugin) - Official plugin guide
+- Each plugin needs a `openclaw.plugin.json` file
+- Supports both `.js` and `.ts` entry files
+
+---
+
+## Integrations
+
+### Messaging Platforms (12+)
+
+| Platform | Status | Notes |
+|----------|--------|-------|
+| WhatsApp | Built-in | Via WhatsApp Web |
+| Telegram | Built-in | Bot API |
+| Discord | Built-in | Bot integration |
+| Slack | Built-in | Workspace app |
+| Signal | Built-in | Via Signal CLI |
+| iMessage | Built-in | macOS only |
+| Microsoft Teams | Built-in | Enterprise ready |
+| Google Chat | Built-in | Workspace integration |
+| Matrix | Built-in | Decentralized chat |
+| BlueBubbles | Built-in | iMessage alternative |
+| Zalo | Built-in | Vietnam messenger |
+| WebChat | Built-in | Browser-based |
+
+### External Services (50+)
+
+| Service | Type | Description |
+|---------|------|-------------|
+| GitHub | Development | PR reviews, issue management |
+| Gmail | Communication | Email automation |
+| Spotify | Entertainment | Music control |
+| Obsidian | Productivity | Note-taking integration |
+| Hue | Smart Home | Light control |
+| Twitter/X | Social | Post management |
+| Browser | Automation | Web tasks, scraping |
+| Calendar | Productivity | Scheduling, reminders |
+| File System | Core | Read/write files |
+| Shell | Core | Command execution |
+| Cron | Core | Scheduled jobs |
+
+- [Full Extension Ecosystem Guide](https://help.apiyi.com/en/openclaw-extensions-ecosystem-guide-en.html)
+
+---
+
+## MCP Support
+
+OpenClaw supports the Model Context Protocol (MCP) for extended capabilities.
+
+### MCP Resources
+
+- [MCP Adapter Plugin](https://github.com/androidStern-personal/openclaw-mcp-adapter) - Expose MCP tools as native agent tools
+- [Native MCP Support Issue](https://github.com/openclaw/openclaw/issues/4834) - Feature discussion
+- [MCP Server PR #5121](https://github.com/openclaw/openclaw/pull/5121) - Server support implementation
+- [MCP Server PR #1605](https://github.com/openclaw/openclaw/pull/1605) - Original implementation
+
+### MCP Servers
+
+| Server | Description |
+|--------|-------------|
+| ecap-security-auditor | Vulnerability scanning |
+| glin-profanity-mcp | Profanity detection |
+| AnChain.AI Data MCP | AML compliance |
+| Self-hosted RAG | [Local RAG with MCP](https://news.ycombinator.com/item?id=46847406) |
+
+- [AnChain.AI + OpenClaw Guide](https://www.anchain.ai/blog/openclaw) - Build 24x7 AML Compliance AI Agent
+
+---
+
+## Tutorials & Guides
+
+### Beginner
+
+| Tutorial | Source | Description |
+|----------|--------|-------------|
+| [What is OpenClaw?](https://medium.com/@gemQueenx/what-is-openclaw-open-source-ai-agent-in-2026-setup-features-8e020db20e5e) | Medium | Setup + Features guide |
+| [OpenClaw for Developers](https://dev.to/mechcloud_academy/unleashing-openclaw-the-ultimate-guide-to-local-ai-agents-for-developers-in-2026-3k0h) | DEV.to | Developer guide |
+| [What is OpenClaw?](https://www.digitalocean.com/resources/articles/what-is-openclaw) | DigitalOcean | Comprehensive explainer |
+| [Complete Installation Guide](https://www.aifreeapi.com/en/posts/openclaw-installation-guide) | AI Free API | WhatsApp, Telegram, Discord setup |
+
+### Advanced
+
+| Tutorial | Source | Description |
+|----------|--------|-------------|
+| [GitHub PR Review Automation](https://zenvanriel.nl/ai-engineer-blog/openclaw-github-pr-review-automation-guide/) | Blog | Automated code reviews |
+| [Creating AI Agent Workforce](https://o-mega.ai/articles/openclaw-creating-the-ai-agent-workforce-ultimate-guide-2026) | o-mega | Ultimate workforce guide |
+| [Pre-Launch Checklist](https://habr.com/en/articles/992720/) | Habr | Security & config checklist |
+
+---
+
+## Articles & News
+
+### Origins & History
+
+- [From Clawdbot to Moltbot to OpenClaw](https://www.cnbc.com/2026/02/02/openclaw-open-source-ai-agent-rise-controversy-clawdbot-moltbot-moltbook.html) - CNBC
+- [OpenClaw and the AI Threshold Effect](https://leonisnewsletter.substack.com/p/openclaw-aka-clawdbot-and-the-ai) - Substack
+- [What is OpenClaw?](https://www.ai-supremacy.com/p/what-is-openclaw-moltbot-2026) - AI Supremacy
+- [OpenClaw Wikipedia](https://en.wikipedia.org/wiki/OpenClaw) - Wikipedia
+
+### Industry Coverage
+
+- [Chinese AI Models Power OpenClaw's Low-Cost Push](https://www.scmp.com/tech/article/3342137/value-money-ai-agent-openclaw-adopts-chinese-models-cost-edge-over-us-rivals) - South China Morning Post
+- [OpenClaw Adopts Kimi K2.5 and MiniMax](https://www.asiabusinessoutlook.com/news/chinese-ai-models-power-openclaw-s-lowcost-agent-push-nwid-11247.html) - Asia Business Outlook
+
+### Security Analysis
+
+- [What Security Teams Need to Know](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/) - CrowdStrike
+
+---
+
+## Community
+
+### Official Channels
+
+- [GitHub Discussions](https://github.com/openclaw/openclaw/discussions) - Community forum
+- [GitHub Issues](https://github.com/openclaw/openclaw/issues) - Bug reports & features
+
+### Events
+
+- **ClawCon** - First community meetup held Feb 4, 2026 at Frontier Tower, San Francisco
+
+### Creator
+
+- Peter Steinberger - Austrian software engineer, creator of OpenClaw
+
+---
+
+## Alternatives & Comparisons
+
+| Agent | Type | Best For |
+|-------|------|----------|
+| [OpenClaw](https://openclaw.ai/) | Open Source | Personal AI assistant, chat-driven |
+| [Manus AI](https://manus.ai/) | Proprietary | General agent framework |
+| [OpenManus](https://github.com/openmanus) | Open Source | Manus alternative |
+| [Claude Code](https://claude.ai/code) | Proprietary | Developer coding assistance |
+| [Jan.ai](https://jan.ai/) | Open Source | Privacy-focused, offline |
+| [eesel AI](https://eesel.ai/) | SaaS | Business customer service |
+
+### Comparison Resources
+
+- [Manus AI vs OpenClaw](https://sourceforge.net/software/compare/Manus-vs-OpenClaw/)
+- [OpenClaw vs OpenManus](https://openclawai.net/compare/openmanus)
+- [Best OpenClaw Alternatives](https://sourceforge.net/software/product/OpenClaw/alternatives)
+- [5 Best OpenClaw Alternatives](https://www.eesel.ai/blog/openclaw-ai-alternatives)
+- [Safer AI Agents Compared](https://safepasswordgenerator.net/blog/openclaw-alternatives-2026/)
+
+---
+
+## Security
+
+### Best Practices
+
+- Run OpenClaw in a sandboxed environment
+- Limit file system access to necessary directories
+- Use environment variables for API keys
+- Regularly update to the latest version
+- Review skills before installing
+- Don't expose instances to the public internet
+
+### Security Resources
+
+- [CrowdStrike Analysis](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/) - Security team guide
+
+### Known Risks
+
+- Exposed instances can be commandeered by adversaries
+- Malicious instructions can be embedded in ingested data
+- Misconfigured setups may leak sensitive data
 
 ---
 
 ## Contributing
 
-Want to add an agent to this list? Submit a PR with the agent details!
+Contributions welcome! Please submit a PR to add resources.
+
+### Guidelines
+
+- Ensure links are working
+- Add brief descriptions
+- Place new entries alphabetically within sections
+- One resource per line
+
+---
 
 ## Follow for Updates
 
 - [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11)
 - [Ankur Singh](https://twitter.com/ankur_maker)
 
-## Related Resources
-
-- [AI-Youtube-Shorts-Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator)
-- [EmbedAI](https://github.com/SamurAIGPT/EmbedAI)
-- [GPT-Agent](https://github.com/SamurAIGPT/GPT-Agent)
+---
 
 ## License
 
-MIT License
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+This list is released into the public domain under CC0 1.0.
+
+---
+
+*Last updated: February 2026*

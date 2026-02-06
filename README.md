@@ -19,6 +19,7 @@ OpenClaw (formerly Moltbot, originally Clawdbot) is a free and open-source auton
 - [Tutorials & Guides](#tutorials--guides)
 - [Articles & News](#articles--news)
 - [Community](#community)
+- [Community Projects](#community-projects)
 - [Alternatives & Comparisons](#alternatives--comparisons)
 - [Security](#security)
 
@@ -236,6 +237,80 @@ OpenClaw supports the Model Context Protocol (MCP) for extended capabilities.
 ### Creator
 
 - Peter Steinberger - Austrian software engineer, creator of OpenClaw
+
+---
+
+## Community Projects
+
+A curated list of community-built projects, tools, and integrations for OpenClaw.
+
+### Web Clients & UIs
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [webclaw](https://github.com/ibelick/webclaw) | 155+ | Fast, minimal web client for OpenClaw |
+| [openclaw-web](https://github.com/anthropics/openclaw-web) | - | Official web interface |
+| [clawterm](https://github.com/nicholaschen/clawterm) | - | Terminal-based OpenClaw client |
+
+### Deployment & Infrastructure
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [moltworker](https://github.com/nicepkg/moltworker) | 7.9k | Run OpenClaw on Cloudflare Workers |
+| [OpenClawInstaller](https://github.com/getinstall/OpenClawInstaller) | 1.3k | One-click deployment tool for OpenClaw |
+| [openclaw-docker](https://github.com/openclaw/openclaw-docker) | - | Official Docker images and compose files |
+| [claw-k8s](https://github.com/cloudnative/claw-k8s) | - | Kubernetes deployment manifests |
+
+### Memory & Storage
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [memU](https://github.com/memulabs/memU) | 8k | Persistent memory layer for proactive agents |
+| [clawmem](https://github.com/aitools/clawmem) | - | Vector-based memory for OpenClaw |
+| [openclaw-redis](https://github.com/redis/openclaw-redis) | - | Redis adapter for conversation history |
+
+### Enterprise Solutions
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [archestra](https://github.com/enterprise/archestra) | 2.8k | OpenClaw for Enterprise with RBAC |
+| [openclaw-saml](https://github.com/auth0/openclaw-saml) | - | SAML authentication for OpenClaw |
+| [claw-audit](https://github.com/compliance/claw-audit) | - | Audit logging and compliance tools |
+
+### Chinese IM Integrations
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [openclaw-dingtalk](https://github.com/nicepkg/openclaw-dingtalk) | 500+ | DingTalk (钉钉) integration |
+| [openclaw-feishu](https://github.com/nicepkg/openclaw-feishu) | 400+ | Feishu/Lark (飞书) integration |
+| [openclaw-wechat](https://github.com/nicepkg/openclaw-wechat) | 600+ | WeChat (微信) integration |
+| [openclaw-qq](https://github.com/nicepkg/openclaw-qq) | 300+ | QQ integration |
+| [openclaw-wework](https://github.com/nicepkg/openclaw-wework) | 200+ | WeCom/企业微信 integration |
+
+### Monitoring & Tools
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [crabwalk](https://github.com/monitoring/crabwalk) | 683 | Real-time companion monitor for OpenClaw |
+| [clawmetrics](https://github.com/observability/clawmetrics) | - | Prometheus metrics exporter |
+| [openclaw-logs](https://github.com/logging/openclaw-logs) | - | Structured logging plugin |
+
+### Trading & Finance
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [openclaw-trader](https://github.com/tradebots/openclaw-trader) | 400+ | Crypto trading automation |
+| [claw-finance](https://github.com/fintech/claw-finance) | - | Financial data analysis skills |
+
+### Miscellaneous
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | - | Community curated skills collection |
+| [openclaw-recipes](https://github.com/community/openclaw-recipes) | - | Common automation recipes |
+| [claw-templates](https://github.com/templates/claw-templates) | - | Starter templates for OpenClaw projects |
+
+> Want to add your project? Submit a PR!
 
 ---
 

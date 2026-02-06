@@ -264,6 +264,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [OpenClawInstaller](https://github.com/getinstall/OpenClawInstaller) | 1.3k | One-click deployment tool for OpenClaw |
 | [openclaw-docker](https://github.com/openclaw/openclaw-docker) | - | Official Docker images and compose files |
 | [claw-k8s](https://github.com/cloudnative/claw-k8s) | - | Kubernetes deployment manifests |
+| [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | NEW | 4-tier autonomous self-healing system with Claude Code as emergency doctor |
 
 ### Memory & Storage
 

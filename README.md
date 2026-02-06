@@ -31,6 +31,7 @@ OpenClaw (formerly Moltbot, originally Clawdbot) is a free and open-source auton
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw) - Main repository (150k+ stars)
 - [OpenClaw Documentation](https://docs.openclaw.ai/) - Official docs
 - [ClawHub](https://clawhub.ai/) - Official skill registry with 700+ community skills
+- [AgentFund](https://github.com/RioTheGreat-ai/agentfund-skill) - Crowdfunding platform for AI agents (milestone-based escrow on Base)
 - [OpenClaw Showcase](https://openclaw.ai/showcase) - What people are building
 - [OpenClaw Releases](https://github.com/openclaw/openclaw/releases) - Latest releases
 - [AGENTS.md](https://github.com/openclaw/openclaw/blob/main/AGENTS.md) - Agent configuration guide
@@ -85,6 +86,7 @@ Access the web dashboard at `http://localhost:18789/` to chat and manage your ag
 ### Skill Registries
 
 - [ClawHub](https://clawhub.ai/) - Official skill store (700+ skills)
+- [AgentFund](https://github.com/RioTheGreat-ai/agentfund-skill) - Crowdfunding platform for AI agents (milestone-based escrow on Base)
 - [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Community curated collection
 - [openclaw/skills](https://github.com/openclaw/skills) - Official skills repository
 - [openclaw/clawhub](https://github.com/openclaw/clawhub) - Skill directory source

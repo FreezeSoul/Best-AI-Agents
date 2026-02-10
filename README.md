@@ -24,6 +24,7 @@ OpenClaw (formerly Moltbot, originally Clawdbot) is a free and open-source auton
 - [Community Projects](#community-projects)
 - [Alternatives & Comparisons](#alternatives--comparisons)
 - [Security](#security)
+- [Ruleskill](https://ruleskill.com) - We want to verify your code for the RuleSkill Protocol. Claim your badge.
 
 ---
 

@@ -268,6 +268,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [claw-k8s](https://github.com/cloudnative/claw-k8s) | - | Kubernetes deployment manifests |
 | [MimiClaw](https://github.com/memovai/mimiclaw) | NEW | Run OpenClaw on a $5 ESP32-S3 chip without Linux or Node.js |
 | [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | NEW | 4-tier autonomous self-healing system with Claude Code as emergency doctor |
+| [PhoneClaw](https://github.com/rohanarun/phoneclaw) | NEW | Automate all android phone apps  |
 
 ### Memory & Storage
 

@@ -361,6 +361,12 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 - Review skills before installing
 - Don't expose instances to the public internet
 
+### Security Tools
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [aquaman](https://github.com/tech4242/aquaman) | - | Credential isolation proxy — API keys never enter the agent process, injected via UDS from Keychain/1Password/Vault/keepassxc |
+
 ### Security Resources
 
 - [CrowdStrike Analysis](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/) - Security team guide

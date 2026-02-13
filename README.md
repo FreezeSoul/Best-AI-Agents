@@ -179,6 +179,7 @@ OpenClaw supports the Model Context Protocol (MCP) for extended capabilities.
 
 | Server | Description |
 |--------|-------------|
+| [creative-toolkit](https://github.com/jau123/MeiGen-Art) | Multi-provider AI image generation with 1,300+ curated prompts and ComfyUI support |
 | ecap-security-auditor | Vulnerability scanning |
 | glin-profanity-mcp | Profanity detection |
 | AnChain.AI Data MCP | AML compliance |

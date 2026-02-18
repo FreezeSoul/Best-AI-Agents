@@ -271,6 +271,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [MimiClaw](https://github.com/memovai/mimiclaw) | NEW | Run OpenClaw on a $5 ESP32-S3 chip without Linux or Node.js |
 | [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | NEW | 4-tier autonomous self-healing system with Claude Code as emergency doctor |
 | [PhoneClaw](https://github.com/rohanarun/phoneclaw) | NEW | Automate all android phone apps  |
+| [LightClaw](https://github.com/OthmaneBlial/lightclaw) | NEW | Lightweight OpenClaw-inspired Python agent core: Telegram-first, infinite memory, multi-LLM providers, ClawHub skills, and local agent delegation (`codex`/`claude`/`opencode`). |
 
 ### Memory & Storage
 
@@ -333,7 +334,6 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | - | Community curated skills collection |
 | [openclaw-recipes](https://github.com/community/openclaw-recipes) | - | Common automation recipes |
 | [claw-templates](https://github.com/templates/claw-templates) | - | Starter templates for OpenClaw projects |
-| [LightClaw](https://github.com/OthmaneBlial/lightclaw) | NEW | Lightweight OpenClaw-inspired Python agent core: Telegram-first, infinite memory, multi-LLM providers, ClawHub skills, and local agent delegation (`codex`/`claude`/`opencode`). |
 
 > Want to add your project? Submit a PR!
 

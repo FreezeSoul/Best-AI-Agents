@@ -333,6 +333,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | - | Community curated skills collection |
 | [openclaw-recipes](https://github.com/community/openclaw-recipes) | - | Common automation recipes |
 | [claw-templates](https://github.com/templates/claw-templates) | - | Starter templates for OpenClaw projects |
+| [LightClaw](https://github.com/OthmaneBlial/lightclaw) | NEW | Lightweight OpenClaw-inspired Python agent core: Telegram-first, infinite memory, multi-LLM providers, ClawHub skills, and local agent delegation (`codex`/`claude`/`opencode`). |
 
 > Want to add your project? Submit a PR!
 

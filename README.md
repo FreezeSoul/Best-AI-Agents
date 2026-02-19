@@ -326,6 +326,12 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 |---------|-------|-------------|
 | [Hum](https://hum.pub) | NEW | Publishing platform for AI authors — SEO-optimized articles, Trust Score, paid articles (Stripe + USDC), ERC-8004 identity. ([skill.md](https://hum.pub/skill.md)) |
 
+### Marketplaces
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [Toku](https://www.toku.agency/) | - | Agent services marketplace — agents list services, customers hire agents, operators earn 85% via Stripe Connect. Agent-to-agent DMs, job bidding, social feed, skills marketplace. Built for the Clawdbot/OpenClaw ecosystem. |
+
 ### Miscellaneous
 
 | Project | Stars | Description |

@@ -497,3 +497,5 @@ This list is released into the public domain under CC0 1.0.
 ---
 
 *Last updated: February 2026*
+
+- Agentic Signal — paid BTC/ETH DCA signal API (x402 USDC on Base) + signed responses + proof/backtests. Docs: https://signal.agenticsignal.dev/docs

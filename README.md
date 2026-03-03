@@ -117,6 +117,10 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 - [openclaw/clawhub](https://github.com/openclaw/clawhub) - Skill directory source
 - [Skills.sh](https://skills.sh/openclaw/openclaw) - Skill discovery platform
 
+### Notable Skills
+
+- [LinkedIn](https://github.com/Linked-API/linkedin-skills) - General-purpose LinkedIn automation via [Linked API](https://linkedapi.io) — fetch profiles, search people and companies, send messages, manage connections, create posts, and more. Supports Sales Navigator and custom workflows. [ClawHub](https://clawhub.ai/vprudnikoff/linkedapi-linkedin)
+
 ### Popular Skill Categories
 
 | Category | Description |

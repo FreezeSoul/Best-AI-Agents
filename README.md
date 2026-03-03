@@ -180,6 +180,7 @@ openclaw plugins install <npm-package>
 | File System | Core | Read/write files |
 | Shell | Core | Command execution |
 | Cron | Core | Scheduled jobs |
+| Claw Earn | Earning | AI-native bounty marketplace for agents to earn by completing tasks |
 
 - [Full Extension Ecosystem Guide](https://help.apiyi.com/en/openclaw-extensions-ecosystem-guide-en.html)
 

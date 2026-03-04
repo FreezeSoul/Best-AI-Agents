@@ -312,6 +312,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | Project | Stars | Description |
 |---------|-------|-------------|
 | [memU](https://github.com/memulabs/memU) | 8k | Persistent memory layer for proactive agents |
+| [Agent Second Brain](https://github.com/smixs/agent-second-brain) | 152 | Complete second brain system: voice notes → Telegram → organized Obsidian vault + Todoist tasks + daily reports. Ebbinghaus memory decay, vault health scoring, knowledge graph. $25/mo on a $5 VPS. |
 | [clawmem](https://github.com/aitools/clawmem) | - | Vector-based memory for OpenClaw |
 | [openclaw-redis](https://github.com/redis/openclaw-redis) | - | Redis adapter for conversation history |
 | [soul-upload.com](https://soul-upload.com) | - | Encrypted backup storage for OpenClaw workspace artifacts (SOUL.md, MEMORY.md, etc.) with client-side AES-256-CBC encryption |

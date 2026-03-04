@@ -101,6 +101,7 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 | [LMStudio Setup](https://nwosunneoma.medium.com/how-to-setup-openclaw-with-lmstudio-1960a8046f6b) | Local | Run with local LLM models |
 | [Docker Setup](https://habr.com/en/articles/992720/) | Docker | Container deployment |
 | [Afternoon Setup Guide](https://amankhan1.substack.com/p/how-to-get-clawdbotmoltbotopenclaw) | All | Quick setup walkthrough |
+| [OctoClaw](https://octoclaw.ai) | Managed Cloud | Fully managed EU hosting — zero setup, pre-provisioned phone number, AI starter budget included, GDPR-compliant |
 
 ---
 
@@ -305,6 +306,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [claw-k8s](https://github.com/cloudnative/claw-k8s) | - | Kubernetes deployment manifests |
 | [MimiClaw](https://github.com/memovai/mimiclaw) | NEW | Run OpenClaw on a $5 ESP32-S3 chip without Linux or Node.js |
 | [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | NEW | 4-tier autonomous self-healing system with Claude Code as emergency doctor |
+| [OctoClaw](https://octoclaw.ai) | NEW | Fully managed OpenClaw hosting on Hetzner (Germany) — GDPR-compliant, pre-provisioned phone number, AI starter budget on every plan, BYOK. Plans from €19/mo. |
 | [PhoneClaw](https://github.com/rohanarun/phoneclaw) | NEW | Automate all android phone apps  |
 | [LightClaw](https://github.com/OthmaneBlial/lightclaw) | NEW | Lightweight OpenClaw-inspired Python agent core: Telegram-first, infinite memory, multi-LLM providers, ClawHub skills, and local agent delegation (`codex`/`claude`/`opencode`). |
 

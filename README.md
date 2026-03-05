@@ -207,7 +207,7 @@ OpenClaw supports the **Model Context Protocol (MCP)** — the open standard ado
 | Server | Description |
 |--------|-------------|
 | `https://api.anchorbrowser.io/mcp` | Cloud browser platform for AI agents |
-| [AI Image Generator](https://github.com/jau123/MeiGen-AI-Design-MCP) | Generate professional AI images through a unified interface that routes across multiple providers. 1,300+ curated prompts, style-aware prompt enhancement, and local ComfyUI workflows. |
+| [AI Image Generator & Editor — Nanobanana, GPT Image, ComfyUI](https://github.com/jau123/MeiGen-AI-Design-MCP) | Generate professional AI images through a unified interface that routes across multiple providers. 1,300+ curated prompts, style-aware prompt enhancement, and local ComfyUI workflows. |
 | ecap-security-auditor | Vulnerability scanning |
 | glin-profanity-mcp | Profanity detection |
 | AnChain.AI Data MCP | AML compliance |

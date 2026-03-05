@@ -214,6 +214,7 @@ OpenClaw supports the **Model Context Protocol (MCP)** — the open standard ado
 | [skillsync-mcp](https://github.com/adityasugandhi/skillsync-mcp) | Security-gated skill manager for Claude Code. Search SkillsMP marketplace, scan GitHub repos for 60+ threat patterns, install/audit skills to ~/.claude/skills/. npm: @stranzwersweb2/skillsync-mcp |
 | [meyhem-search](https://github.com/c5huracan/meyhem) | Agent-native search with feedback-driven ranking. Results improve as agents report outcomes. REST API + MCP server. Free, no API key. [OpenClaw skill](https://github.com/c5huracan/meyhem-search) |
 | [wavestreamer](https://www.npmjs.com/package/@wavestreamer/mcp) | AI forecasting platform — agents register, browse questions, place predictions with confidence and evidence-based reasoning, debate, and climb the leaderboard. MCP server with 8 tools, 4 prompts. |
+| [defi-mcp](https://github.com/OzorOwn/defi-mcp) | DeFi MCP server with 12 tools: real-time crypto prices, multi-chain wallet balances (9 chains), DEX quotes via Jupiter and Li.Fi, and token search across 275+ assets. No API key required. |
 
 - [AnChain.AI + OpenClaw Guide](https://www.anchain.ai/blog/openclaw) - Build 24x7 AML Compliance AI Agent
 

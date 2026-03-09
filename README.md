@@ -102,6 +102,7 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 | [Docker Setup](https://habr.com/en/articles/992720/) | Docker | Container deployment |
 | [Afternoon Setup Guide](https://amankhan1.substack.com/p/how-to-get-clawdbotmoltbotopenclaw) | All | Quick setup walkthrough |
 | [OctoClaw](https://octoclaw.ai) | Managed Cloud | Fully managed EU hosting — zero setup, pre-provisioned phone number, AI starter budget included, GDPR-compliant |
+| [SlackClaw](https://slackclaw.ai) | Managed Cloud | Managed OpenClaw hosting for Slack — credit-based pricing, per-channel permissions, audit logging, auto-updates. No per-seat fees. |
 
 ---
 
@@ -308,6 +309,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [MimiClaw](https://github.com/memovai/mimiclaw) | NEW | Run OpenClaw on a $5 ESP32-S3 chip without Linux or Node.js |
 | [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | NEW | 4-tier autonomous self-healing system with Claude Code as emergency doctor |
 | [OctoClaw](https://octoclaw.ai) | NEW | Fully managed OpenClaw hosting on Hetzner (Germany) — GDPR-compliant, pre-provisioned phone number, AI starter budget on every plan, BYOK. Plans from €19/mo. |
+| [SlackClaw](https://slackclaw.ai) | NEW | Managed OpenClaw deployment specifically for Slack workspaces. Credit-based pricing, per-channel agent permissions, built-in security (audit logs, output filtering, DM controls). Setup in minutes. |
 | [PhoneClaw](https://github.com/rohanarun/phoneclaw) | NEW | Automate all android phone apps  |
 | [LightClaw](https://github.com/OthmaneBlial/lightclaw) | NEW | Lightweight OpenClaw-inspired Python agent core: Telegram-first, infinite memory, multi-LLM providers, ClawHub skills, and local agent delegation (`codex`/`claude`/`opencode`). |
 

@@ -357,6 +357,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 |---------|-------|-------------|
 | [openclaw-trader](https://github.com/tradebots/openclaw-trader) | 400+ | Crypto trading automation |
 | [claw-finance](https://github.com/fintech/claw-finance) | - | Financial data analysis skills |
+| [VARRD](https://github.com/augiemazza/varrd) | NEW | Statistical edge discovery — turns trading ideas into validated setups with event studies, backtesting, and K-tracking. \ |
 
 ### Development Workflows
 

@@ -122,6 +122,7 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 ### Notable Skills
 
 - [LinkedIn](https://github.com/Linked-API/linkedin-skills) - General-purpose LinkedIn automation via [Linked API](https://linkedapi.io) — fetch profiles, search people and companies, send messages, manage connections, create posts, and more. Supports Sales Navigator and custom workflows. [ClawHub](https://clawhub.ai/vprudnikoff/linkedapi-linkedin)
+- [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X API & Twitter scraper skill for AI coding agents — 40+ tools including tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions & Telegram integrations. REST API, MCP server & webhooks.
 
 ### Popular Skill Categories
 
@@ -217,6 +218,7 @@ OpenClaw supports the **Model Context Protocol (MCP)** — the open standard ado
 | [meyhem-search](https://github.com/c5huracan/meyhem) | Agent-native search with feedback-driven ranking. Results improve as agents report outcomes. REST API + MCP server. Free, no API key. [OpenClaw skill](https://github.com/c5huracan/meyhem-search) |
 | [wavestreamer](https://www.npmjs.com/package/@wavestreamer/mcp) | AI forecasting platform — agents register, browse questions, place predictions with confidence and evidence-based reasoning, debate, and climb the leaderboard. MCP server with 8 tools, 4 prompts. |
 | [defi-mcp](https://github.com/OzorOwn/defi-mcp) | DeFi MCP server with 12 tools: real-time crypto prices, multi-chain wallet balances (9 chains), DEX quotes via Jupiter and Li.Fi, and token search across 275+ assets. No API key required. |
+| [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | X API & Twitter scraper skill for AI coding agents. 40+ tools: tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions, Telegram integrations. REST API, MCP server & webhooks. Works with Claude Code, Cursor, Codex, Copilot, Windsurf & 40+ agents. |
 
 - [AnChain.AI + OpenClaw Guide](https://www.anchain.ai/blog/openclaw) - Build 24x7 AML Compliance AI Agent
 

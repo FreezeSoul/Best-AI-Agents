@@ -391,6 +391,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [openclaw-recipes](https://github.com/community/openclaw-recipes) | - | Common automation recipes |
 | [claw-templates](https://github.com/templates/claw-templates) | - | Starter templates for OpenClaw projects |
 | [discourse-openclaw](https://github.com/pranciskus/discourse-openclaw) | NEW | OpenClaw plugin for Discourse forum integration with 12 tools (read, search, filter, write topics/posts) |
+| [ByeByeClaw](https://github.com/wanikua/byebyeclaw) | NEW | One-command uninstaller for all Claw-family AI agents (OpenClaw, ZeroClaw, NanoClaw, etc.). 15 scan dimensions, zero residue, cross-platform, bilingual (EN/中文) |
 
 > Want to add your project? Submit a PR!
 

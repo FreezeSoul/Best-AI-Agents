@@ -369,6 +369,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 
 | Project | Stars | Description |
 |---------|-------|-------------|
+| [Agent Modes Checker](https://github.com/illbnm/openclaw-agent-modes) | NEW | Self-check framework for AI usage patterns — Captain/Architect/Abdicator decision tree, interactive CLI tool, local model recommendations, Fast Mode guide (v2026.3.12), K8s deployment |
 | [FTW](https://github.com/SmokeAlot420/ftw) | NEW | First Try Works — PIV (Plan-Implement-Validate) workflow with independent validation agents |
 | [miniclaw-os](https://github.com/augmentedmike/miniclaw-os) | NEW | Batteries-included plugin ecosystem for OpenClaw on Mac mini home servers — includes mc-board (Kanban agent), mc-seo (SEO automation + rank tracking), mc-email (multi-account email), mc-kb (vector knowledge base), mc-designer (AI image generation), mc-human (VNC desktop control), mc-youtube (video pipeline), and more. Turn your Mac mini into a fully autonomous personal AI OS. |
 

@@ -314,6 +314,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | NEW | 4-tier autonomous self-healing system with Claude Code as emergency doctor |
 | [OctoClaw](https://octoclaw.ai) | NEW | Fully managed OpenClaw hosting on Hetzner (Germany) — GDPR-compliant, pre-provisioned phone number, AI starter budget on every plan, BYOK. Plans from €19/mo. |
 | [SlackClaw](https://slackclaw.ai) | NEW | Managed OpenClaw deployment specifically for Slack workspaces. Credit-based pricing, per-channel agent permissions, built-in security (audit logs, output filtering, DM controls). Setup in minutes. |
+| [Silos Dashboard](https://github.com/cheapestinference/silos) | NEW | Open-source dashboard for OpenClaw — manage agents, sessions, channels (WhatsApp, Telegram, Discord, Slack), cron jobs, and analytics. React/TypeScript, i18n (en/es/fr/de), dark/light theme. Also available as [managed hosting](https://silosplatform.com) with flat-rate AI inference included. |
 | [PhoneClaw](https://github.com/rohanarun/phoneclaw) | NEW | Automate all android phone apps  |
 | [LightClaw](https://github.com/OthmaneBlial/lightclaw) | NEW | Lightweight OpenClaw-inspired Python agent core: Telegram-first, infinite memory, multi-LLM providers, ClawHub skills, and local agent delegation (`codex`/`claude`/`opencode`). |
 

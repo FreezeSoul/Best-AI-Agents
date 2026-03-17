@@ -312,6 +312,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [claw-k8s](https://github.com/cloudnative/claw-k8s) | - | Kubernetes deployment manifests |
 | [MimiClaw](https://github.com/memovai/mimiclaw) | NEW | Run OpenClaw on a $5 ESP32-S3 chip without Linux or Node.js |
 | [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | NEW | 4-tier autonomous self-healing system with Claude Code as emergency doctor |
+| [claude-discord-bridge](https://github.com/Ramsbaby/claude-discord-bridge) | NEW | Full AI company-in-a-box for Discord — 45 cron tasks, 12 AI teams, RAG memory, self-healing, $0 extra for Claude Max subscribers. Battle-tested 24/7 production system. |
 | [OctoClaw](https://octoclaw.ai) | NEW | Fully managed OpenClaw hosting on Hetzner (Germany) — GDPR-compliant, pre-provisioned phone number, AI starter budget on every plan, BYOK. Plans from €19/mo. |
 | [SlackClaw](https://slackclaw.ai) | NEW | Managed OpenClaw deployment specifically for Slack workspaces. Credit-based pricing, per-channel agent permissions, built-in security (audit logs, output filtering, DM controls). Setup in minutes. |
 | [Silos Dashboard](https://github.com/cheapestinference/silos) | NEW | Open-source dashboard for OpenClaw — manage agents, sessions, channels (WhatsApp, Telegram, Discord, Slack), cron jobs, and analytics. React/TypeScript, i18n (en/es/fr/de), dark/light theme. Also available as [managed hosting](https://silosplatform.com) with flat-rate AI inference included. |

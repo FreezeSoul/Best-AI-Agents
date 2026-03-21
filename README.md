@@ -122,9 +122,11 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 ### Notable Skills
 
 - [ATXP](https://github.com/atxp-dev/atxp) - Give your OpenClaw agent a funded identity: USDC wallet on Base, `@atxp.email` inbox, phone number, and 100+ paid tools (web search, image/video generation, LLM gateway, SMS, voice). Self-registers in one command — no KYC, no human login. `openclaw skills install https://github.com/atxp-dev/atxp`
+- [LobsterDomains](https://lobsterdomains.xyz) - Register ICANN domains (.com/.xyz/.org/1000+ TLDs) with crypto (USDC/ETH/BTC) via API — built for AI agents to acquire domains autonomously
 - [LinkedIn](https://github.com/Linked-API/linkedin-skills) - General-purpose LinkedIn automation via [Linked API](https://linkedapi.io) — fetch profiles, search people and companies, send messages, manage connections, create posts, and more. Supports Sales Navigator and custom workflows. [ClawHub](https://clawhub.ai/vprudnikoff/linkedapi-linkedin)
 - [product-manager-skills](https://github.com/Digidai/product-manager-skills) - Senior PM agent with 6 knowledge domains, 30+ frameworks, and 32 SaaS metrics — diagnose metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions.
 - [Web Search Pro](https://github.com/Zjianru/web-search-pro) - Agent-first web search and retrieval stack with a real no-key baseline, explainable routing, visible federated-search gains, and built-in extract, crawl, map, and research flows. [ClawHub](https://clawhub.ai/Zjianru/web-search-pro)
+- [Tubeify](https://tubeify.xyz) - AI video editor for YouTube — removes pauses, filler words and dead air from raw recordings via API, pay per video
 - [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - OpenClaw plugin for X/Twitter automation — post tweets, reply, like, retweet, follow, DM, search, extract data, run giveaways, monitor accounts. 40+ endpoints via Xquik. `openclaw plugins install @xquik/tweetclaw`
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X API & Twitter scraper skill for AI coding agents — 40+ tools including tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions & Telegram integrations. REST API, MCP server & webhooks.
 

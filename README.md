@@ -315,6 +315,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [OpenClaw Kit (TurboStarter)](https://www.turbostarter.dev/openclaw) | NEW | Opinionated OpenClaw wrapper starter kit with infrastructure, auth, billing, integrations, dashboard and deployment setup. |
 | [openclaw-docker](https://github.com/openclaw/openclaw-docker) | - | Official Docker images and compose files |
 | [claw-k8s](https://github.com/cloudnative/claw-k8s) | - | Kubernetes deployment manifests |
+| [TeamClaw](https://github.com/ChannelDAO/teamclaw) | NEW | Enterprise AI collaboration platform. Per-user containers, centralized API key pool, team configuration. Self-hosted on AWS ECS/Fargate. Apache 2.0. |
 | [MimiClaw](https://github.com/memovai/mimiclaw) | NEW | Run OpenClaw on a $5 ESP32-S3 chip without Linux or Node.js |
 | [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | NEW | 4-tier autonomous self-healing system with Claude Code as emergency doctor |
 | [claude-discord-bridge](https://github.com/Ramsbaby/claude-discord-bridge) | NEW | Full AI company-in-a-box for Discord — 45 cron tasks, 12 AI teams, RAG memory, self-healing, $0 extra for Claude Max subscribers. Battle-tested 24/7 production system. |

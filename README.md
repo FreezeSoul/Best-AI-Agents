@@ -333,6 +333,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [memU](https://github.com/memulabs/memU) | 8k | Persistent memory layer for proactive agents |
 | [Agent Second Brain](https://github.com/smixs/agent-second-brain) | 152 | Complete second brain system: voice notes → Telegram → organized Obsidian vault + Todoist tasks + daily reports. Ebbinghaus memory decay, vault health scoring, knowledge graph. $25/mo on a $5 VPS. |
 | [openclaw-mengram](https://github.com/alibaizhanov/openclaw-mengram) | - | Long-term memory plugin for OpenClaw — semantic, episodic & procedural memory with auto-recall, auto-capture, 12 tools, Graph RAG. Install: `openclaw plugins install openclaw-mengram` |
+| [hippodid-openclaw-plugin](https://github.com/SameThoughts/hippodid-openclaw-plugin) | – | Persistent cloud memory for OpenClaw — survives context compaction, hybrid BM25 + vector search, auto-recall, auto-capture, BYOK. Install: `openclaw plugins install @hippodid/openclaw-plugin` |
 | [clawmem](https://github.com/aitools/clawmem) | - | Vector-based memory for OpenClaw |
 | [openclaw-redis](https://github.com/redis/openclaw-redis) | - | Redis adapter for conversation history |
 | [keepmyclaw](https://keepmyclaw.com) | [ClawHub](https://clawhub.ai/benriazy/keepmyclaw) | Encrypted cloud backup and restore for OpenClaw workspaces — daily automated snapshots to Cloudflare R2, client-side AES-256-GCM encryption, one-command restore and migration. [Docs](https://keepmyclaw.com/docs.html) |

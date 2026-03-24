@@ -507,6 +507,11 @@ Run `npm install -g openclaw@latest` then `openclaw onboard` to start the setup 
 
 ---
 
+## XVARY Stock Research
+
+- [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) — Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
+
+
 ## Contributing
 
 Contributions welcome! Please submit a PR to add resources.

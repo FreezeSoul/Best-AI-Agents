@@ -52,6 +52,7 @@ OpenClaw is a **self-hosted, open-source AI agent** that acts as your personal A
 
 - [OpenClaw Website](https://openclaw.ai/) - Official homepage
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw) - Main repository (150k+ stars)
+- [claw-army/claude-node](https://github.com/claw-army/claude-node) - Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
 - [OpenClaw Documentation](https://docs.openclaw.ai/) - Official docs
 - [ClawHub](https://clawhub.ai/) - Official skill registry with 700+ community skills
 - [AgentFund](https://github.com/RioTheGreat-ai/agentfund-skill) - Crowdfunding platform for AI agents (milestone-based escrow on Base)

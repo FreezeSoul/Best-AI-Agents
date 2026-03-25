@@ -427,6 +427,7 @@ OpenClaw is often compared to other autonomous AI agents and self-hosted AI assi
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Open Source | Autonomous task execution |
 | [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | Open Source | Terminal-based code execution |
 | [Claude Code](https://claude.ai/code) | Proprietary | Developer coding assistance |
+| [claw-army/claude-node](https://github.com/claw-army/claude-node) | Open Source | Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json |
 | [Jan.ai](https://jan.ai/) | Open Source | Privacy-focused, fully offline |
 | [Agent Zero](https://github.com/frdel/agent-zero) | Open Source | Fully local autonomous agent |
 | [Khoj](https://github.com/khoj-ai/khoj) | Open Source | Open-source personal AI |

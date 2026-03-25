@@ -101,6 +101,7 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 | [LMStudio Setup](https://nwosunneoma.medium.com/how-to-setup-openclaw-with-lmstudio-1960a8046f6b) | Local | Run with local LLM models |
 | [Docker Setup](https://habr.com/en/articles/992720/) | Docker | Container deployment |
 | [Afternoon Setup Guide](https://amankhan1.substack.com/p/how-to-get-clawdbotmoltbotopenclaw) | All | Quick setup walkthrough |
+| [Remote OpenClaw](https://remoteopenclaw.com) | Managed Cloud | Managed OpenClaw hosting on dedicated infrastructure — 12-step security hardening, Tailscale, workflow configuration, dedicated Slack support, 60+ deployment guides |
 | [OctoClaw](https://octoclaw.ai) | Managed Cloud | Fully managed EU hosting — zero setup, pre-provisioned phone number, AI starter budget included, GDPR-compliant |
 | [SlackClaw](https://slackclaw.ai) | Managed Cloud | Managed OpenClaw hosting for Slack — credit-based pricing, per-channel permissions, audit logging, auto-updates. No per-seat fees. |
 
@@ -122,9 +123,11 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 ### Notable Skills
 
 - [ATXP](https://github.com/atxp-dev/atxp) - Give your OpenClaw agent a funded identity: USDC wallet on Base, `@atxp.email` inbox, phone number, and 100+ paid tools (web search, image/video generation, LLM gateway, SMS, voice). Self-registers in one command — no KYC, no human login. `openclaw skills install https://github.com/atxp-dev/atxp`
+- [LobsterDomains](https://lobsterdomains.xyz) - Register ICANN domains (.com/.xyz/.org/1000+ TLDs) with crypto (USDC/ETH/BTC) via API — built for AI agents to acquire domains autonomously
 - [LinkedIn](https://github.com/Linked-API/linkedin-skills) - General-purpose LinkedIn automation via [Linked API](https://linkedapi.io) — fetch profiles, search people and companies, send messages, manage connections, create posts, and more. Supports Sales Navigator and custom workflows. [ClawHub](https://clawhub.ai/vprudnikoff/linkedapi-linkedin)
 - [product-manager-skills](https://github.com/Digidai/product-manager-skills) - Senior PM agent with 6 knowledge domains, 30+ frameworks, and 32 SaaS metrics — diagnose metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions.
 - [Web Search Pro](https://github.com/Zjianru/web-search-pro) - Agent-first web search and retrieval stack with a real no-key baseline, explainable routing, visible federated-search gains, and built-in extract, crawl, map, and research flows. [ClawHub](https://clawhub.ai/Zjianru/web-search-pro)
+- [Tubeify](https://tubeify.xyz) - AI video editor for YouTube — removes pauses, filler words and dead air from raw recordings via API, pay per video
 - [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - OpenClaw plugin for X/Twitter automation — post tweets, reply, like, retweet, follow, DM, search, extract data, run giveaways, monitor accounts. 40+ endpoints via Xquik. `openclaw plugins install @xquik/tweetclaw`
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X API & Twitter scraper skill for AI coding agents — 40+ tools including tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions & Telegram integrations. REST API, MCP server & webhooks.
 
@@ -238,6 +241,7 @@ OpenClaw supports the **Model Context Protocol (MCP)** — the open standard ado
 | [OpenClaw for Developers](https://dev.to/mechcloud_academy/unleashing-openclaw-the-ultimate-guide-to-local-ai-agents-for-developers-in-2026-3k0h) | DEV.to | Developer guide |
 | [What is OpenClaw?](https://www.digitalocean.com/resources/articles/what-is-openclaw) | DigitalOcean | Comprehensive explainer |
 | [Complete Installation Guide](https://www.aifreeapi.com/en/posts/openclaw-installation-guide) | AI Free API | WhatsApp, Telegram, Discord setup |
+| [ClawPath](https://clawpath.dev) | Community | Chinese & English onboarding guide — install, channel, skills, security in 30 min |
 
 ### Advanced
 
@@ -312,6 +316,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [OpenClaw Kit (TurboStarter)](https://www.turbostarter.dev/openclaw) | NEW | Opinionated OpenClaw wrapper starter kit with infrastructure, auth, billing, integrations, dashboard and deployment setup. |
 | [openclaw-docker](https://github.com/openclaw/openclaw-docker) | - | Official Docker images and compose files |
 | [claw-k8s](https://github.com/cloudnative/claw-k8s) | - | Kubernetes deployment manifests |
+| [TeamClaw](https://github.com/ChannelDAO/teamclaw) | NEW | Enterprise AI collaboration platform. Per-user containers, centralized API key pool, team configuration. Self-hosted on AWS ECS/Fargate. Apache 2.0. |
 | [MimiClaw](https://github.com/memovai/mimiclaw) | NEW | Run OpenClaw on a $5 ESP32-S3 chip without Linux or Node.js |
 | [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | NEW | 4-tier autonomous self-healing system with Claude Code as emergency doctor |
 | [claude-discord-bridge](https://github.com/Ramsbaby/claude-discord-bridge) | NEW | Full AI company-in-a-box for Discord — 45 cron tasks, 12 AI teams, RAG memory, self-healing, $0 extra for Claude Max subscribers. Battle-tested 24/7 production system. |
@@ -397,6 +402,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 
 | Project | Stars | Description |
 |---------|-------|-------------|
+| [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) | 830+ | 177 production-ready AI agent templates across 24 categories. Copy-paste SOUL.md files for PM, Writer, SEO, DevOps, and more. |
 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | - | Community curated skills collection |
 | [openclaw-recipes](https://github.com/community/openclaw-recipes) | - | Common automation recipes |
 | [claw-templates](https://github.com/templates/claw-templates) | - | Starter templates for OpenClaw projects |
@@ -500,6 +506,11 @@ Run `npm install -g openclaw@latest` then `openclaw onboard` to start the setup 
 | [humanize-chinese](https://github.com/openclaw/skills/tree/main/skills/swaylq/humanize-chinese) | NEW | Detect and humanize AI-generated Chinese text with 6 style transforms and 16 detection patterns. Pure Python, no dependencies. `clawhub install humanize-chinese` |
 
 ---
+
+## XVARY Stock Research
+
+- [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) — Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
+
 
 ## Contributing
 

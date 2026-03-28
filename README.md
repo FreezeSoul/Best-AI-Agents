@@ -133,6 +133,7 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 - [tweetclaw](https://github.com/Xquik-dev/tweetclaw) - OpenClaw plugin for X/Twitter automation — post tweets, reply, like, retweet, follow, DM, search, extract data, run giveaways, monitor accounts. 40+ endpoints via Xquik. `openclaw plugins install @xquik/tweetclaw`
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X API & Twitter scraper skill for AI coding agents — 40+ tools including tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions & Telegram integrations. REST API, MCP server & webhooks.
 
+- [Useful AI](https://github.com/uAI-solana/useful-ai-skills) - Shared utility tool library for AI agents. Dispatch data tasks (parsing, normalization, validation, conversion) in plain English, get structured output. 200+ tools, auto-generated, no auth required. Skill file at usefulai.fun/skill.md.
 - [Northstar](https://github.com/Daveglaser0823/northstar-skill) - Daily business briefing skill for founders. Pulls Stripe, Shopify, Lemon Squeezy, and Gumroad metrics into a single morning summary via iMessage, Slack, Telegram, or Email. Free tier available. [ClawHub](https://clawhub.ai/Daveglaser0823/northstar)
 
 ### Popular Skill Categories

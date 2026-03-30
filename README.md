@@ -343,6 +343,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [openclaw-redis](https://github.com/redis/openclaw-redis) | - | Redis adapter for conversation history |
 | [keepmyclaw](https://keepmyclaw.com) | [ClawHub](https://clawhub.ai/benriazy/keepmyclaw) | Encrypted cloud backup and restore for OpenClaw workspaces — daily automated snapshots to Cloudflare R2, client-side AES-256-GCM encryption, one-command restore and migration. [Docs](https://keepmyclaw.com/docs.html) |
 | [soul-upload.com](https://soul-upload.com) | - | Encrypted backup storage for OpenClaw workspace artifacts (SOUL.md, MEMORY.md, etc.) with client-side AES-256-CBC encryption |
+| [PLUR Memory Engine](https://github.com/plur-ai/plur) | - | Open-source persistent memory for OpenClaw agents. Learn, recall, forget, feedback. Local storage, zero cloud dependency. |
 
 ### Enterprise Solutions
 

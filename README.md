@@ -304,6 +304,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | Project | Stars | Description |
 |---------|-------|-------------|
 | [clawterm](https://github.com/nicholaschen/clawterm) | - | Terminal-based OpenClaw client |
+| [ClawWork](https://github.com/clawwork-ai/ClawWork) | NEW | Desktop & mobile workspace for OpenClaw — Electron + React 19 desktop app with parallel tasks, streaming chat, tool call cards, artifact persistence, file browser, and scheduled automation. Also available as a [PWA](https://cpwa.pages.dev) for mobile browsers (Android & iOS). Dark/light theme, 8 languages. |
 | [MobileClaw](https://github.com/wende/mobileclaw) | NEW | Mobile-first PWA client for OpenClaw — live tool calls with inline diffs, sub-agent activity feed, reasoning blocks, push notifications. Also supports LM Studio. No Xcode build required, just a URL. [Live demo](https://mobileclaw.vercel.app?demo) |
 | [Nerve](https://github.com/daggerhashimoto/openclaw-nerve) | NEW | Self-hosted web cockpit for OpenClaw — real-time streaming with reasoning blocks, voice I/O (local STT/TTS), sub-agent session monitoring, cron job management, memory editor, inline TradingView/Recharts, code editor, model selector. One-command install. [Website](https://nerve.zone) |
 | [SwarmClaw](https://github.com/swarmclawai/swarmclaw) | NEW | Self-hosted AI agent orchestration dashboard with multi-provider support, task scheduling, and per-agent OpenClaw gateway bridging. |

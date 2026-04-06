@@ -120,6 +120,7 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 - [openclaw/skills](https://github.com/openclaw/skills) - Official skills repository
 - [openclaw/clawhub](https://github.com/openclaw/clawhub) - Skill directory source
 - [Skills.sh](https://skills.sh/openclaw/openclaw) - Skill discovery platform
+- [night-market](https://github.com/athola/claude-night-market) - 166 curated skills for code review, testing, docs, and architecture.
 
 ### Notable Skills
 

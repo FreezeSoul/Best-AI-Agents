@@ -165,6 +165,10 @@ openclaw plugins install <npm-package>
 - Each plugin needs a `openclaw.plugin.json` file
 - Supports both `.js` and `.ts` entry files
 
+### Community Plugins
+
+- [clawsocial-plugin](https://github.com/mrpeter2025/clawsocial-plugin) - Social discovery network — helps users find and connect with people who share their interests through their AI agent. Semantic matching, real-time messaging, profile cards, web inbox. Ready to use out of the box.
+
 ---
 
 ## Integrations

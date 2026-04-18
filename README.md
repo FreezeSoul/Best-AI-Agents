@@ -238,6 +238,7 @@ OpenClaw supports the **Model Context Protocol (MCP)** — the open standard ado
 | [defi-mcp](https://github.com/OzorOwn/defi-mcp) | DeFi MCP server with 12 tools: real-time crypto prices, multi-chain wallet balances (9 chains), DEX quotes via Jupiter and Li.Fi, and token search across 275+ assets. No API key required. |
 | [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | X API & Twitter scraper skill for AI coding agents. 40+ tools: tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions, Telegram integrations. REST API, MCP server & webhooks. Works with Claude Code, Cursor, Codex, Copilot, Windsurf & 40+ agents. |
 | [ToolRouter](https://toolrouter.com) | One gateway to 150+ tools for AI agents — SEO, screenshots, web search, image generation, video, security scanning, and more. One API key replaces managing dozens of provider accounts. Works with ChatGPT, Claude, Cursor, and any MCP client. `npx -y toolrouter-mcp` |
+| [Not Human Search](https://nothumansearch.ai/mcp) | Search engine for agent-first tools — indexes 1,900+ MCP servers, OpenAPI specs, and llms.txt endpoints scored by agentic readiness. Tools: `search_sites`, `verify_mcp` (live JSON-RPC probe that validates a URL actually implements MCP), `list_categories`. Public, free, no auth. Streamable HTTP at `https://nothumansearch.ai/mcp`. |
 
 - [AnChain.AI + OpenClaw Guide](https://www.anchain.ai/blog/openclaw) - Build 24x7 AML Compliance AI Agent
 

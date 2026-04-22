@@ -137,6 +137,13 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 
 - [Useful AI](https://github.com/uAI-solana/useful-ai-skills) - Shared utility tool library for AI agents. Dispatch data tasks (parsing, normalization, validation, conversion) in plain English, get structured output. 200+ tools, auto-generated, no auth required. Skill file at usefulai.fun/skill.md.
 - [Northstar](https://github.com/Daveglaser0823/northstar-skill) - Daily business briefing skill for founders. Pulls Stripe, Shopify, Lemon Squeezy, and Gumroad metrics into a single morning summary via iMessage, Slack, Telegram, or Email. Free tier available. [ClawHub](https://clawhub.ai/Daveglaser0823/northstar)
+- [Resemble Detect](https://github.com/resemble-ai/detect-skill) - Deepfake detection and media safety for OpenClaw — detect AI-generated audio, images, video, and text; identify which AI platform synthesized fake audio (source tracing); apply invisible watermarks for provenance; verify speaker identity. Powered by [Resemble AI](https://resemble.ai). Install via `openclaw skills install resemble-ai/detect-skill`.
+
+### Detection & Media Forensics
+
+Skills for verifying whether incoming media is real or AI-generated — essential for agents that ingest user-submitted audio, images, video, or text.
+
+- [Resemble Detect](https://github.com/resemble-ai/detect-skill) - Full deepfake detection suite for audio, image, video, and text. Includes source tracing (which AI platform made this?), invisible watermarking, speaker identity verification, and structured media intelligence (speaker, emotion, transcription, misinformation signals). Powered by [Resemble AI](https://resemble.ai).
 
 ### Popular Skill Categories
 
@@ -148,6 +155,7 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 | Communication | Email drafting, message scheduling |
 | Research | Web browsing, PDF summarization |
 | Entertainment | Spotify, media control |
+| **Detection** | **Deepfake detection, media forensics, AI-content verification, watermarking, provenance** |
 
 ### Installing Skills
 

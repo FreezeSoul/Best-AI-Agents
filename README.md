@@ -338,6 +338,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [Silos Dashboard](https://github.com/cheapestinference/silos) | NEW | Open-source (MIT) multi-tenant dashboard for OpenClaw — shared browser session, multi-channel support (WhatsApp, Telegram, Discord, Slack), built-in skills marketplace, Docker one-command deploy, cron jobs, analytics, i18n (en/es/fr/de), dark/light theme. Also available as [managed hosting](https://silosplatform.com) with flat-rate AI inference included. |
 | [PhoneClaw](https://github.com/rohanarun/phoneclaw) | NEW | Automate all android phone apps  |
 | [LightClaw](https://github.com/OthmaneBlial/lightclaw) | NEW | Lightweight OpenClaw-inspired Python agent core: Telegram-first, infinite memory, multi-LLM providers, ClawHub skills, and local agent delegation (`codex`/`claude`/`opencode`). |
+| [WaliGPT](https://waligpt.com) | NEW | One-click deployment platform for pre-configured OpenClaw agents. Ships with ready-to-deploy templates for crypto trading, Polymarket betting, Telegram alpha monitoring, Twitter automation, NFT tracking, Discord moderation, and more. Each agent runs on an isolated cloud instance — no DevOps required. |
 
 ### Memory & Storage
 

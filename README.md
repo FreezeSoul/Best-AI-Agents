@@ -107,6 +107,7 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 | [Remote OpenClaw](https://remoteopenclaw.com) | Managed Cloud | Managed OpenClaw hosting on dedicated infrastructure — 12-step security hardening, Tailscale, workflow configuration, dedicated Slack support, 60+ deployment guides |
 | [OctoClaw](https://octoclaw.ai) | Managed Cloud | Fully managed EU hosting — zero setup, pre-provisioned phone number, AI starter budget included, GDPR-compliant |
 | [SlackClaw](https://slackclaw.ai) | Managed Cloud | Managed OpenClaw hosting for Slack — credit-based pricing, per-channel permissions, audit logging, auto-updates. No per-seat fees. |
+| [RapidClaw](https://rapidclaw.dev) | Managed Cloud | Managed OpenClaw hosting for non-technical operators — zero terminal/Docker/SSH setup, deploys in minutes, opinionated defaults. |
 
 ---
 

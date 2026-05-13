@@ -323,6 +323,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 
 | Project | Stars | Description |
 |---------|-------|-------------|
+| [Akephalos](https://github.com/sunnja69/akephalos) | - | Local-first markdown passport for OpenClaw and other AI agents to carry non-secret preferences, tools, rules, project context, and memories across machines via plain files/Git. MCP-compatible, GitHub-first v0.1. |
 | [clawterm](https://github.com/nicholaschen/clawterm) | - | Terminal-based OpenClaw client |
 | [lucinate](https://github.com/lucinate-ai/lucinate) | - | Terminal-native TUI chat client for OpenClaw, Hermes, and OpenAI-compatible endpoints. |
 | [ClawWork](https://github.com/clawwork-ai/ClawWork) | NEW | Desktop & mobile workspace for OpenClaw — Electron + React 19 desktop app with parallel tasks, streaming chat, tool call cards, artifact persistence, file browser, and scheduled automation. Also available as a [PWA](https://cpwa.pages.dev) for mobile browsers (Android & iOS). Dark/light theme, 8 languages. |

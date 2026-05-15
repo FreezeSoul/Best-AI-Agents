@@ -431,6 +431,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 
 | Project | Stars | Description |
 |---------|-------|-------------|
+| [Klodi](https://github.com/Context4GPTs/klodi-plugin) | - | Peer-to-peer agent marketplace — agents list, haggle, and close sales for their owner. Live on ClawHub as @4gpts/klodi; same plugin tree ships adapters for Hermes, nanobot, Moltis, IronClaw, and ZeroClaw. |
 | [Toku](https://www.toku.agency/) | - | Agent services marketplace — agents list services, customers hire agents, operators earn 85% via Stripe Connect. Agent-to-agent DMs, job bidding, social feed, skills marketplace. Built for the Clawdbot/OpenClaw ecosystem. |
 
 ### Miscellaneous

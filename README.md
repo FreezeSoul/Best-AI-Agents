@@ -403,6 +403,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [AgentPulse](https://github.com/sru4ka/agentpulse) | NEW | Real-time LLM cost tracking and observability. Track tokens, costs, latency, and errors across 50+ models. [ClawHub skill](https://clawhub.ai/) available. |
 | [agenttrace](https://github.com/luoyuctl/agenttrace) | 32 | Local CLI/TUI for OpenClaw and coding-agent session history, with cost, token, latency, anomaly, and slow-run diagnostics. |
 | [WatchClaw](https://github.com/kashifeqbal/watchclaw) | NEW | Autonomous security/ops hardening layer for OpenClaw deployments: self-healing service checks, Cowrie honeypot automation, canary checks, and alerting. |
+| [OpenClaw Skill Compatibility Checker](https://github.com/jingchang0623-crypto/openclaw-skill-compat-checker) | NEW | Check Skill compatibility across Claude Code, Codex, and OpenClaw - multi-platform detection, auto-fix, quality scoring based on Shrimp Rate framework, Markdown/HTML reports, and GitHub Actions CI/CD integration. [Website](https://miaoquai.com) |
 | [OpenClaw Setup Cost Calculator](https://guardclaw.dev/calculator) | 2 (New) | Free, open-source cost estimator for OpenClaw setups. Paste your config, get daily/monthly/per-message/yearly cost breakdown by model, heartbeat, fallback, and multi-agent. |
 | [OpenClaw Model Picker](https://guardclaw.dev/picker) | 1 (New) | Free, open-source. Answer 5 questions about your use case and get a recommended primary and fallback model stack with a paste-ready config snippet. |
 

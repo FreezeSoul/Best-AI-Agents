@@ -178,6 +178,7 @@ openclaw plugins install <npm-package>
 ### Community Plugins
 
 - [clawsocial-plugin](https://github.com/mrpeter2025/clawsocial-plugin) - Social discovery network — helps users find and connect with people who share their interests through their AI agent. Semantic matching, real-time messaging, profile cards, web inbox. Ready to use out of the box.
+- [OneQuery](https://github.com/wordbricks/onequery/tree/main/packages/openclaw-plugin) - Agent-ready CLI/skill for bounded, auditable queries against approved data sources through centralized credentials, read-only validation, limits, and audit logs.
 
 ---
 

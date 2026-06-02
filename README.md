@@ -499,6 +499,7 @@ OpenClaw is often compared to other autonomous AI agents and self-hosted AI assi
 | [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) | - | Pre-action authorization for OpenClaw; `before_tool_call` plugin, allowlist + 40+ blocked patterns, local or API. Setup: `npx @aporthq/agent-guardrails` |
 | [leashed](https://github.com/dormstern/leashed) | - | Policy engine, audit log, and kill switch for AI agents. Allow/deny patterns, time limits, and emergency revocation. |
 | [OneCLI](https://github.com/onecli/onecli) | - | Open-source credential vault for AI agents. Rust HTTP gateway injects API keys transparently so agents never handle raw secrets. Per-agent scoped tokens, AES-256-GCM encryption at rest. |
+| [ClawLens](https://github.com/nk3750/clawlens) | - | Local-first observability and guardrails for OpenClaw agents — records every tool call before execution, scores risky behavior, keeps a tamper-evident hash-chain audit trail, and turns observed actions into block / require-approval / allow-notify guardrails delivered to Telegram. |
 
 ### Security Resources
 

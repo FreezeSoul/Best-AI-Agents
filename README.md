@@ -4,7 +4,9 @@
 
 **OpenClaw** (formerly Moltbot, originally Clawdbot) is a free and open-source autonomous AI agent created by Peter Steinberger. It runs locally on your machine, connects to 50+ integrations, and lets you chat with AI through WhatsApp, Telegram, Discord, Signal, iMessage, and more — no subscription required.
 
-[![GitHub stars](https://img.shields.io/github/stars/openclaw/opencaw?style=social)](https://github.com/openclaw/openclaw)
+**See also:** [awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) — curated resources for Hermes Agent (Nous Research), the most common upgrade path from OpenClaw with a native `hermes claw migrate` command.
+
+[![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw)
 
 <img width="1536" height="1024" alt="OpenClaw AI agent dashboard — open-source self-hosted personal AI assistant" src="https://github.com/user-attachments/assets/dc60b4c4-18f4-4ebd-a5b9-8294d2e924ab" />
 
@@ -31,6 +33,7 @@ OpenClaw is a **self-hosted, open-source AI agent** that acts as your personal A
 
 ## Contents
 
+- [See Also](#see-also)
 - [Official Resources](#official-resources)
 - [Getting Started](#getting-started)
 - [Installation Guides](#installation-guides)
@@ -418,6 +421,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [VARRD](https://github.com/augiemazza/varrd) | NEW | Statistical edge discovery — turns trading ideas into validated setups with event studies, backtesting, and K-tracking. \ |
 | [yield-intelligence-skill](https://github.com/thebrierfox/yield-intelligence-skill) | - | Passive income portfolio analysis: US Treasury yield curves, dividend ETFs, REITs. Works standalone, no API key needed. BYOK. MIT. |
 | [moatmri-skill](https://github.com/thebrierfox/moatmri-skill) | - | AI disruption pressure analysis — 10-vector pressure map for businesses facing AI disruption. BYOK. MIT. |
+| [Agentic Signal](https://signal.agenticsignal.dev/docs) | NEW | Paid BTC/ETH DCA signal API — x402 USDC on Base, signed responses, proof/backtests. |
 
 ### Development Workflows
 
@@ -426,6 +430,10 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [Agent Modes Checker](https://github.com/illbnm/openclaw-agent-modes) | NEW | Self-check framework for AI usage patterns — Captain/Architect/Abdicator decision tree, interactive CLI tool, local model recommendations, Fast Mode guide (v2026.3.12), K8s deployment |
 | [FTW](https://github.com/SmokeAlot420/ftw) | NEW | First Try Works — PIV (Plan-Implement-Validate) workflow with independent validation agents |
 | [miniclaw-os](https://github.com/augmentedmike/miniclaw-os) | NEW | Batteries-included plugin ecosystem for OpenClaw on Mac mini home servers — includes mc-board (Kanban agent), mc-seo (SEO automation + rank tracking), mc-email (multi-account email), mc-kb (vector knowledge base), mc-designer (AI image generation), mc-human (VNC desktop control), mc-youtube (video pipeline), and more. Turn your Mac mini into a fully autonomous personal AI OS. |
+| [claude-code-pro](https://github.com/voidborne-d/claude-code-pro) | NEW | Token-efficient Claude Code workflow — completion callbacks instead of polling, saves 80-97% supervision tokens. Smart dispatch rules. `clawhub install claude-code-pro` |
+| [lambda-lang](https://github.com/voidborne-d/lambda-lang) | NEW | Native agent-to-agent language with 3x character compression vs natural language. 340+ semantic atoms across 7 domains, Go + Python implementations. `clawhub install lambda-lang` |
+| [NoizAI/skills](https://github.com/NoizAI/skills) | NEW | Human-like TTS workflow skills with local/cloud backends, style presets, and voice message delivery scripts. |
+| [humanize-chinese](https://github.com/openclaw/skills/tree/main/skills/swaylq/humanize-chinese) | NEW | Detect and humanize AI-generated Chinese text with 6 style transforms and 16 detection patterns. Pure Python, no dependencies. `clawhub install humanize-chinese` |
 
 ### Content & Publishing
 
@@ -453,6 +461,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [claw-templates](https://github.com/templates/claw-templates) | - | Starter templates for OpenClaw projects |
 | [discourse-openclaw](https://github.com/pranciskus/discourse-openclaw) | NEW | OpenClaw plugin for Discourse forum integration with 12 tools (read, search, filter, write topics/posts) |
 | [ByeByeClaw](https://github.com/wanikua/byebyeclaw) | NEW | One-command uninstaller for all Claw-family AI agents (OpenClaw, ZeroClaw, NanoClaw, etc.). 15 scan dimensions, zero residue, cross-platform, bilingual (EN/中文) |
+| [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) | NEW | Claude Code skill for SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT. |
 
 > Want to add your project? Submit a PR!
 
@@ -473,6 +482,7 @@ OpenClaw is often compared to other autonomous AI agents and self-hosted AI assi
 | [claw-army/claude-node](https://github.com/claw-army/claude-node) | Open Source | Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json |
 | [Jan.ai](https://jan.ai/) | Open Source | Privacy-focused, fully offline |
 | [Agent Zero](https://github.com/frdel/agent-zero) | Open Source | Fully local autonomous agent |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Open Source | Self-evolving agent with closed learning loop; 18 messaging platforms, 7 backends — includes a native OpenClaw migration path. See [awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent) |
 | [Khoj](https://github.com/khoj-ai/khoj) | Open Source | Open-source personal AI |
 | [eesel AI](https://eesel.ai/) | SaaS | Business customer service |
 
@@ -542,23 +552,6 @@ Yes. OpenClaw is MIT licensed and completely free to use. You only pay for any A
 Run `npm install -g openclaw@latest` then `openclaw onboard` to start the setup wizard. See the [Installation Guides](#installation-guides) section for platform-specific guides.
 
 ---
-
-### Agent Communication & Coding
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [claude-code-pro](https://github.com/voidborne-d/claude-code-pro) | NEW | Token-efficient Claude Code workflow — completion callbacks instead of polling, saves 80-97% supervision tokens. Smart dispatch rules. `clawhub install claude-code-pro` |
-| [lambda-lang](https://github.com/voidborne-d/lambda-lang) | NEW | Native agent-to-agent language with 3x character compression vs natural language. 340+ semantic atoms across 7 domains, Go + Python implementations. `clawhub install lambda-lang` |
-| [NoizAI/skills](https://github.com/NoizAI/skills) | NEW | Human-like TTS workflow skills with local/cloud backends, style presets, and voice message delivery scripts. |
-| [humanize-chinese](https://github.com/openclaw/skills/tree/main/skills/swaylq/humanize-chinese) | NEW | Detect and humanize AI-generated Chinese text with 6 style transforms and 16 detection patterns. Pure Python, no dependencies. `clawhub install humanize-chinese` |
-
----
-
-## XVARY Stock Research
-
-- [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) — Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
-
-
 ## Contributing
 
 Contributions welcome! Please submit a PR to add resources.
@@ -588,4 +581,3 @@ This list is released into the public domain under CC0 1.0.
 
 *Last updated: February 2026*
 
-- Agentic Signal — paid BTC/ETH DCA signal API (x402 USDC on Base) + signed responses + proof/backtests. Docs: https://signal.agenticsignal.dev/docs

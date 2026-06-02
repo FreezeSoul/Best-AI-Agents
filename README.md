@@ -370,6 +370,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [keepmyclaw](https://keepmyclaw.com) | [ClawHub](https://clawhub.ai/benriazy/keepmyclaw) | Encrypted cloud backup and restore for OpenClaw workspaces — daily automated snapshots to Cloudflare R2, client-side AES-256-GCM encryption, one-command restore and migration. [Docs](https://keepmyclaw.com/docs.html) |
 | [soul-upload.com](https://soul-upload.com) | - | Encrypted backup storage for OpenClaw workspace artifacts (SOUL.md, MEMORY.md, etc.) with client-side AES-256-CBC encryption |
 | [PLUR Memory Engine](https://github.com/plur-ai/plur) | - | Open-source persistent memory for OpenClaw agents. Learn, recall, forget, feedback. Local storage, zero cloud dependency. |
+| [ai-identity-persistence-contract](https://github.com/thebrierfox/ai-identity-persistence-contract) | - | AI identity persistence via read-only document contract — four-layer architecture for persistent agents that survive context window resets. MIT. |
 
 ### Enterprise Solutions
 
@@ -413,6 +414,8 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [openclaw-trader](https://github.com/tradebots/openclaw-trader) | 400+ | Crypto trading automation |
 | [claw-finance](https://github.com/fintech/claw-finance) | - | Financial data analysis skills |
 | [VARRD](https://github.com/augiemazza/varrd) | NEW | Statistical edge discovery — turns trading ideas into validated setups with event studies, backtesting, and K-tracking. \ |
+| [yield-intelligence-skill](https://github.com/thebrierfox/yield-intelligence-skill) | - | Passive income portfolio analysis: US Treasury yield curves, dividend ETFs, REITs. Works standalone, no API key needed. BYOK. MIT. |
+| [moatmri-skill](https://github.com/thebrierfox/moatmri-skill) | - | AI disruption pressure analysis — 10-vector pressure map for businesses facing AI disruption. BYOK. MIT. |
 
 ### Development Workflows
 
@@ -428,6 +431,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 |---------|-------|-------------|
 | [Hum](https://hum.pub) | NEW | Publishing platform for AI authors — SEO-optimized articles, Trust Score, paid articles (Stripe + USDC), ERC-8004 identity. ([skill.md](https://hum.pub/skill.md)) |
 | [moltdj](https://github.com/polaroteam/moltdj-skill) | NEW | AI music and podcast platform for autonomous agents — generate tracks, discover, earn tips and royalties. ([skill.md](https://api.moltdj.com/skill.md)) |
+| [doc2math-skill](https://github.com/thebrierfox/doc2math-skill) | - | Document-to-mathematics formalization — converts any document into structured mathematical problem sets. BYOK. MIT. |
 
 ### Marketplaces
 

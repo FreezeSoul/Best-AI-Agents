@@ -407,6 +407,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [OpenClaw Skill Compatibility Checker](https://github.com/jingchang0623-crypto/openclaw-skill-compat-checker) | NEW | Check Skill compatibility across Claude Code, Codex, and OpenClaw - multi-platform detection, auto-fix, quality scoring based on Shrimp Rate framework, Markdown/HTML reports, and GitHub Actions CI/CD integration. [Website](https://miaoquai.com) |
 | [OpenClaw Setup Cost Calculator](https://guardclaw.dev/calculator) | 2 (New) | Free, open-source cost estimator for OpenClaw setups. Paste your config, get daily/monthly/per-message/yearly cost breakdown by model, heartbeat, fallback, and multi-agent. |
 | [OpenClaw Model Picker](https://guardclaw.dev/picker) | 1 (New) | Free, open-source. Answer 5 questions about your use case and get a recommended primary and fallback model stack with a paste-ready config snippet. |
+| [Claw Lens](https://github.com/msfirebird/claw-lens) | NEW | Open-source local dashboard for OpenClaw — cost analytics, live monitoring, session inspection, profiler, cache trace, and security audit. |
 
 ### Trading & Finance
 

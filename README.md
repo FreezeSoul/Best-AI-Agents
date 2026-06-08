@@ -260,6 +260,7 @@ OpenClaw supports the **Model Context Protocol (MCP)** — the open standard ado
 - [AnChain.AI + OpenClaw Guide](https://www.anchain.ai/blog/openclaw) - Build 24x7 AML Compliance AI Agent
 
 ---
+| [TWZRD Agent Intel](https://intel.twzrd.xyz) | Trust scoring for Solana AI agents. `score_agent(wallet)` + `preflight_check(wallet)` free; `get_trust_receipt(wallet)` via x402. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}` |
 
 ## Tutorials & Guides
 

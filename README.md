@@ -517,6 +517,7 @@ OpenClaw is often compared to other autonomous AI agents and self-hosted AI assi
 | [leashed](https://github.com/dormstern/leashed) | - | Policy engine, audit log, and kill switch for AI agents. Allow/deny patterns, time limits, and emergency revocation. |
 | [OneCLI](https://github.com/onecli/onecli) | - | Open-source credential vault for AI agents. Rust HTTP gateway injects API keys transparently so agents never handle raw secrets. Per-agent scoped tokens, AES-256-GCM encryption at rest. |
 | [ClawLens](https://github.com/nk3750/clawlens) | - | Local-first observability and guardrails for OpenClaw agents — records every tool call before execution, scores risky behavior, keeps a tamper-evident hash-chain audit trail, and turns observed actions into block / require-approval / allow-notify guardrails delivered to Telegram. |
+| [iClaw](https://github.com/iclawapp/iclaw) | - | Local-first AI workspace with sandboxed file execution — isolates files in containers, detects malware and credential theft before execution. npm: @iclawapp/iclaw |
 
 ### Security Resources
 

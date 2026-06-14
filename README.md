@@ -265,6 +265,7 @@ OpenClaw supports the **Model Context Protocol (MCP)** — the open standard ado
 
 ---
 | [TWZRD Agent Intel](https://intel.twzrd.xyz) | Trust scoring for Solana AI agents. `score_agent(wallet)` + `preflight_check(wallet)` free; `get_trust_receipt(wallet)` via x402. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}` |
+| [The Stall](https://the-stall.intuitek.ai) | 210 pay-per-call data intelligence capabilities via x402 micropayments (no API key). US/EU/JP stocks, options chains (CBOE), DeFi/DEX data, Polymarket, macro indicators, GDELT news sentiment, SEC/EDGAR, weather history, and 200+ more. Config: `{"mcpServers":{"the-stall":{"url":"https://the-stall.intuitek.ai/mcp"}}}` |
 
 ## Tutorials & Guides
 

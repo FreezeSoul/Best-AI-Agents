@@ -94,6 +94,7 @@ on one yourself.
 - [MuAPI](https://muapi.ai) — Unified API for image, video, and audio generation across hundreds of AI models.
 - [MuAPI agent skills docs](https://muapi.ai/docs/agent-skills) — How MuAPI's own skills/tool-catalog surface works for agents.
 - [MuAPI access keys](https://muapi.ai/access-keys) — Create a key if you're pairing this catalog with MuAPI's own generative-media API.
+- [awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) — Typed, confidence-aware decision workflows for routing agents and API tools.
 
 ## License
 

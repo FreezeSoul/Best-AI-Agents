@@ -19,20 +19,20 @@ Exactly 20 relevant GitHub topics:
 3. `muse-connectors`
 4. `connectors`
 5. `integrations`
-6. `awesome`
-7. `awesome-list`
-8. `ai-agents`
-9. `agentic-ai`
-10. `personal-ai`
-11. `automation`
-12. `workflow-automation`
-13. `api`
-14. `developer-tools`
-15. `open-source`
-16. `skills`
-17. `templates`
-18. `research`
-19. `computer-use`
+6. `connector-catalog`
+7. `api-integration`
+8. `awesome`
+9. `awesome-list`
+10. `ai-agents`
+11. `agentic-ai`
+12. `personal-ai`
+13. `automation`
+14. `workflow-automation`
+15. `api`
+16. `developer-tools`
+17. `open-source`
+18. `skills`
+19. `agent-skills`
 20. `ai-tools`
 
 ## Cross-link placement

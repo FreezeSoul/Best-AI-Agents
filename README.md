@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="images/banner.svg" alt="Awesome Muse Connectors" width="760">
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 [![Muse](https://img.shields.io/badge/Muse-personal%20AI%20agent-7c3aed)](https://ai.meta.com/muse/)
 [![Connectors](https://img.shields.io/badge/connector-catalog-0ea5e9)](connectors/)
+
+
+<p align="center"><a href="https://youtu.be/U-QApIUtT2k"><img src="https://i.ytimg.com/vi/U-QApIUtT2k/maxresdefault.jpg" width="720"></a></p>
+<p align="center"><a href="https://youtu.be/U-QApIUtT2k"><b>▶ Watch: 10 Insane Things Meta's New AI Agent Can Do (That Meta Didn't Ship) </b></a></p>
 
 </div>
 

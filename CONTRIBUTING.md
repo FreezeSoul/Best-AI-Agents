@@ -1,6 +1,31 @@
-# Contributing to Awesome Muse Bots
+# Contributing to Awesome Muse Connectors
 
-Thanks for helping make the collection useful.
+Thanks for helping expand and improve the connector catalog. Connector pull requests are the main contribution path; workflow templates are also welcome.
+
+## Add a connector
+
+Create one self-contained folder under `connectors/<provider-id>/`. Start from [`connectors/_template/`](connectors/_template/) and include a `SKILL.md` plus only the code and references it needs. Keep the connector easy to audit and follow the upstream MIT license notice in [`connectors/LICENSE`](connectors/LICENSE).
+
+Every connector must document:
+
+- Purpose and exact capabilities, grounded in the provider's public API documentation.
+- Authentication method, required scopes, and allowed hosts.
+- Exact CLI commands and examples; undocumented commands are out of scope.
+- Read versus write behavior, with confirmation before consequential writes.
+- A `## Files` manifest that lists every file the skill needs.
+- A `## Maturity` label. Keep it `Draft` until live-tested against the real API.
+
+Do not commit secrets, accept credentials through command-line arguments, or make network requests to hosts outside the documented allowlist. Do not bypass provider access controls or unsupported API use.
+
+## Review checklist for connector pull requests
+
+- [ ] Public API source and source date are included.
+- [ ] `Auth` lists scopes, allowed hosts, and a status-check command.
+- [ ] Writes and other external effects require explicit confirmation.
+- [ ] `Files` manifest exactly matches the connector's required files.
+- [ ] `Maturity` reflects what was actually tested.
+- [ ] No credentials, private data, or unsupported access method is included.
+- [ ] The catalog index links to the connector and summarizes its documented use.
 
 ## Add a template
 

@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="images/banner.svg" alt="Awesome Meta Muse Agent" width="760">
+<img src="images/banner.svg" alt="Awesome Muse Connectors" width="760">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 [![Muse](https://img.shields.io/badge/Muse-personal%20AI%20agent-7c3aed)](https://ai.meta.com/muse/)
-[![Templates](https://img.shields.io/badge/templates-copy%20%26%20paste-0ea5e9)](templates/)
+[![Connectors](https://img.shields.io/badge/connector-catalog-0ea5e9)](connectors/)
 
 </div>
 
-# Awesome Meta Muse Agent
+# Awesome Muse Connectors
 
-> A curated collection of practical, copy-paste Muse agent briefs for research, productivity, operations, content, engineering, and personal workflows.
+> A community-maintained catalog of integrations and connector skills for Meta Muse.
 
-Muse is Meta's personal AI agent. Its official product page describes an agent that can browse the web, use connected apps, create documents and images, set reminders, track goals, monitor information in the background, and ask for approval before sensitive actions. This repository turns those capabilities into focused, reusable bot briefs.
+This repository includes Meta-named integrations and 150 community connector skills copied from an MIT-licensed project. The copied skills retain their source license and are listed in the [connector catalog](connectors/README.md). Community skills are distinct from Meta's built-in connectors. Review their permissions and maturity status before use; availability and provider APIs can change.
 
 This is an independent community collection. It is not affiliated with, endorsed by, or operated by Meta.
 
@@ -26,7 +26,17 @@ This is an independent community collection. It is not affiliated with, endorsed
 - [Awesome Hermes Agent](https://github.com/Anil-matcha/awesome-hermes-agent) — agent workflows and creator-focused automation resources.
 - [MuseBot](https://github.com/yincongcyincong/MuseBot) — a separate open-source, multi-platform chatbot implementation.
 
-## What makes a good Muse bot
+## Connector catalog
+
+Browse [150 copied connector skills](connectors/README.md) with descriptions, authentication notes, allowed hosts, operating rules, and maturity status. The built-in connectors named by Meta are also summarized there with source links.
+
+Pull requests are welcome. Add a connector with a source-backed capability description, credential and host boundaries, explicit write approvals, a tested file manifest, and an honest maturity label. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Agent workflow templates
+
+The original 12 workflow templates remain under [`templates/`](templates/) as supporting examples for using Muse and its connectors.
+
+### What makes a good Muse bot
 
 Muse can take a broad objective, gather context from connected apps, work through multiple steps, and return for approval when an action is sensitive. A useful bot brief gives that capability a narrow, testable shape.
 
@@ -46,9 +56,9 @@ The collection follows six principles:
 5. **Evidence over confidence:** important claims should link to the message, file, page, event, or record that supports them.
 6. **A graceful stop:** ambiguity, missing access, conflicting instructions, and irreversible actions should produce a question—not a guess.
 
-## How to use a template
+### How to use a template
 
-1. Open Muse in the [Muse app](https://ai.meta.com/muse/download/), WhatsApp, or at [muse.ai](https://muse.ai/).
+1. Check the [Muse download page](https://ai.meta.com/muse/download/) for current access, then open Muse in the app or WhatsApp where available.
 2. Start a new conversation and copy the prompt from one of the templates below.
 3. Paste it into Muse and answer its setup questions.
 4. Connect only the apps the workflow needs.
@@ -56,19 +66,23 @@ The collection follows six principles:
 
 Templates are starting points, not unattended automation recipes. Replace bracketed fields, narrow the scope, and tell Muse what it must never do without your approval.
 
+#### Current availability and connector limits
+
+At launch, Muse was available in the United States to adults 18 and older through the Muse app and WhatsApp, according to Meta and the Associated Press. Check the official download page for current regional and account eligibility before setting up a workflow. Meta announced at Connect on September 23, 2026 that Muse is coming to its AI glasses; treat glasses access as announced, not as a generally available interface, until the current product page confirms availability.
+
+Connector access is not guaranteed just because a browser can reach a service. For example, Axios reported on September 21, 2026 that Amazon blocked Muse from browsing and buying on its store, citing lack of authorization. A template must not instruct Muse to bypass a site's access controls or service-provider decision. When access is denied, stop and use permitted sources or ask the user to choose another route.
+
 ## Contents
 
 | Section | What it covers |
 |---|---|
-| [What makes a good Muse bot](#what-makes-a-good-muse-bot) | The design principles behind the collection |
-| [Choose a template](#choose-the-right-template) | A quick guide by job-to-be-done |
-| [Template catalog](#template-catalog) | All 12 briefs, integrations, and approval levels |
-| [Copy-paste starter prompt](#copy-paste-starter-prompt) | A reusable brief for creating your own workflow |
-| [Workflow patterns](#workflow-patterns) | Watchers, researchers, drafters, operators, and auditors |
+| [Connector catalog](connectors/README.md) | Meta-named integrations and community connector skills |
+| [Agent workflow templates](#agent-workflow-templates) | Existing prompts for using Muse and integrations safely |
+| [Choose a template](#choose-the-right-template) | Quick guide by job-to-be-done |
+| [Template catalog](#template-catalog) | The 12 supporting briefs and approval levels |
 | [Permission model](#permission-model) | How to stage access safely |
 | [Safety defaults](#safety-defaults) | Boundaries for sensitive and irreversible actions |
-| [Official context and sources](#official-context-and-sources) | What is grounded in Meta's published product material |
-| [FAQ](#faq) | Common questions about installation, access, and scope |
+| [Official context and sources](#official-context-and-sources) | Muse product behavior and availability sources |
 
 ### Template index
 
@@ -255,12 +269,20 @@ When in doubt, have the bot produce a review packet rather than take the action.
 
 | Topic | Source |
 |---|---|
-| Muse capabilities and connectors | [Meta: Muse features](https://ai.meta.com/muse/) |
-| Apps and desktop access | [Meta: Download Muse](https://ai.meta.com/muse/download/) |
-| Product launch, permissions, audit trail, and secure VM | [Meta Newsroom: Introducing Muse](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) |
-| Agentic AI task design | [Meta: What is agentic AI?](https://ai.meta.com/learn/agentic-ai/what-is-agentic-ai/) |
+| Current capabilities, connectors, access, and FAQ | [Meta: Muse](https://ai.meta.com/muse/) |
+| App downloads and current access | [Meta: Download Muse](https://ai.meta.com/muse/download/) |
+| Connector setup, permissions, disconnecting, and custom-connector limits | [Meta Help: How Muse works with Connectors](https://www.meta.com/help/artificial-intelligence/1687253048996149/) |
+| Email and calendar task examples | [Meta: Meta AI takes action (July 24, 2026)](https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/) |
+| Launch, Secure VM, background work, payment, and approval flow (September 8, 2026) | [Meta Newsroom: Introducing Muse](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) |
+| Security architecture, Sentinel, connectors, and known agent risks (September 8, 2026) | [Meta AI Research: How We Built Safety Into Muse](https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse) |
+| Glasses integration announcement (September 23, 2026) | [Meta Newsroom: Muse and AI glasses](https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/) |
+| Connector and retail announcements from Connect (September 23, 2026) | [Meta: Connect 2026 announcements](https://about.fb.com/br/news/2026/09/tudo-o-que-anunciamos-no-meta-connect-2026/) |
+| Launch availability and age restriction reporting | [Associated Press: Meta launches personal AI agent, Muse](https://apnews.com/article/meta-muse-ai-agent-3a4572eb4cf4e95d8a0dfdad6e6ca065) |
+| Third-party service access limitation example (September 21, 2026) | [Axios: Amazon blocks Muse shopping access](https://www.axios.com/2026/09/21/amazon-meta-muse-ai-agentic-shopping) |
+| Partner-confirmed financial integration | [Plaid: Muse integration](https://plaid.com/blog/meta-muse/) |
+| Partner-confirmed music integration | [Spotify: Muse integration](https://newsroom.spotify.com/2026-09-23/spotify-meta-muse-agent/) |
 
-Official behavior, availability, limits, and connected-app support can change. Re-check the linked sources before relying on a capability in production.
+Official behavior, availability, limits, and connected-app support can change. Re-check the linked sources before relying on a capability in production. Meta's descriptions explain intended safeguards, but the company also says agents can make mistakes; keep approval gates and verify results. Do not treat a product capability as permission to access a service that has not authorized it.
 
 ### What this repository does and does not claim
 
@@ -319,7 +341,7 @@ No. Start without connectors or with read-only access. Remove steps that depend 
 
 ### Can Muse work after I close the app?
 
-Meta describes background work and monitoring as product capabilities. Availability and limits can vary, so test a low-risk reminder or research task first. Keep approval required for messages, purchases, publication, and other external effects.
+Meta describes background work and monitoring as product capabilities. Availability and limits can vary, so test a low-risk reminder or research task first. Keep approval required for messages, purchases, publication, and other external effects. If a site blocks Muse or its connector, do not try to evade that restriction.
 
 ### Why do the prompts repeat safety instructions?
 
@@ -335,18 +357,17 @@ Yes, if it is a public connector, integration, evaluation, guide, or reproducibl
 
 ## Roadmap
 
-- Add connector-specific variants as Muse exposes stable public interfaces.
-- Add dated, redacted observed runs for the highest-value templates.
-- Add evaluation fixtures for citation quality, approval behavior, and safe abstention.
-- Add short versions for mobile copy-paste and longer versions for team operations.
-- Add translations while preserving the original English prompt and permission boundary.
-- Add a small directory index once the collection has enough community submissions to justify one.
+- Review copied connector skills for current API compatibility and keep maturity labels accurate.
+- Add source-backed connectors through pull requests, with permissions and write actions made explicit.
+- Track Meta's built-in integrations separately from community skills.
+- Add reproducible, redacted live-test notes where contributors can verify behavior safely.
+- Keep the 12 workflow templates as a secondary collection and update them when connector behavior changes.
 
 ## Contributing
 
-Pull requests are welcome. Add one focused template under [`templates/`](templates/) using the format in [CONTRIBUTING.md](CONTRIBUTING.md). Include the original creator or source when a prompt is adapted, keep permissions explicit, and test the first run before describing a workflow as ready to use.
+Pull requests are welcome. Connector skills are the main contribution path: add one focused folder under [`connectors/`](connectors/) using the requirements in [CONTRIBUTING.md](CONTRIBUTING.md). Include public API sources, keep permissions explicit, and label the connector `Draft` unless it has been live-tested. Workflow template contributions are also welcome.
 
-Before opening a pull request, run the checklist in [CONTRIBUTING.md](CONTRIBUTING.md), verify local links, and state what was tested versus what is proposed. Keep the README catalog concise; put the full prompt and setup notes in a dedicated file under `templates/`.
+Before opening a pull request, follow the relevant checklist in [CONTRIBUTING.md](CONTRIBUTING.md) and state what was tested versus what is proposed. Keep connector instructions with their skill and update the [catalog index](connectors/README.md).
 
 ## License
 

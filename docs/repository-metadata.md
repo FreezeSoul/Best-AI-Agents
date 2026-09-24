@@ -4,7 +4,7 @@ Use these values when creating or updating `Anil-matcha/awesome-muse-connectors`
 
 ## Description
 
-> Community catalog of Meta Muse integrations and connector skills, with sources and permission notes.
+> A source-backed catalog of Meta Muse integrations and community connector skills, with capability, authentication, and permission notes.
 
 ## Homepage
 

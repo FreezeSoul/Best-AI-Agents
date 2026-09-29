@@ -23,6 +23,7 @@ This is an independent community collection. It is not affiliated with, endorsed
 - [Awesome Jev by TypeSafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) — typed, confidence-aware decision workflows.
 - [Awesome Grok Bot](https://github.com/Anil-matcha/awesome-grok-bot) — copy-paste bot briefs for persistent AI teammates.
 - [Awesome GPT-6 Astra](https://github.com/Anil-matcha/awesome-gpt-6-astra) — evidence-backed model use cases, prompts, and evaluations.
+- [Awesome Dots Connectors](https://github.com/Anil-matcha/awesome-dots-connectors) — the companion catalog mirroring this repository’s 150 community connector entries for OpenAI Dots; Dots compatibility is not yet verified.
 - [Open Grok Bot](https://github.com/Anil-matcha/open-grok-bot) — local-first bot-persona workspace with approvals and audit trails.
 - [Awesome OpenClaw](https://github.com/Anil-matcha/awesome-openclaw) — self-hosted agent resources, skills, and integrations.
 - [Awesome Hermes Agent](https://github.com/Anil-matcha/awesome-hermes-agent) — agent workflows and creator-focused automation resources.
